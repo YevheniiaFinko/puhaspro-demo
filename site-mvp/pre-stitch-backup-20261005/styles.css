@@ -1,0 +1,449 @@
+:root{--ink:#173b39;--muted:#6b7c79;--teal:#1f6f68;--mint:#d8f36b;--paper:#f7f8f3;--line:#dfe7df;--white:#fff;--orange:#e9905d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.5}a{text-decoration:none;color:inherit}.site-header{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 6vw;border-bottom:1px solid var(--line);background:rgba(247,248,243,.88);backdrop-filter:blur(10px);position:sticky;top:0;z-index:10}.brand{display:flex;align-items:center;gap:10px;font-size:1.2rem;font-weight:800;letter-spacing:-.04em}.brand>span:last-child>span{color:var(--teal)}.brand-mark{width:32px;height:32px;display:grid;place-items:center;background:var(--teal);color:#fff;border-radius:10px;font-size:1rem}.nav-links{display:flex;gap:34px;color:var(--muted);font-size:.9rem}.nav-links a:hover,.text-link:hover{color:var(--teal)}.header-actions{display:flex;gap:16px;align-items:center}.language-select select{border:0;background:transparent;color:var(--ink);font-weight:700;cursor:pointer}.button{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;background:var(--teal);color:#fff;padding:15px 23px;font:inherit;font-weight:700;cursor:pointer;transition:transform .2s,background .2s}.button:hover{background:#155851;transform:translateY(-2px)}.button-small{padding:10px 18px;font-size:.86rem}.section-grid{display:grid;grid-template-columns:1fr 1fr;gap:6vw;max-width:1320px;margin:auto;padding:96px 6vw 110px}.hero-copy{padding-top:44px}.eyebrow{display:flex;gap:9px;align-items:center;text-transform:uppercase;letter-spacing:.13em;font-size:.7rem;font-weight:800;color:var(--teal);margin-bottom:22px}.eyebrow-dot{width:8px;height:8px;border-radius:50%;background:var(--orange)}h1,h2,h3,p{margin-top:0}h1,h2{letter-spacing:-.07em;line-height:.98;margin-bottom:25px}h1{font-size:clamp(3.5rem,6vw,6.7rem);font-weight:800}h2{font-size:clamp(2.5rem,4.7vw,5rem);font-weight:800}h1 em,h2 em{font-family:Georgia,serif;font-weight:400;color:var(--teal)}.hero-text{font-size:1.2rem;max-width:500px;color:var(--muted);line-height:1.65}.hero-buttons{display:flex;gap:26px;align-items:center;margin:35px 0 56px}.text-link{font-weight:750;color:var(--teal)}.text-link span{font-size:1.2rem;margin-left:5px}.trust-row{display:flex;gap:35px;border-top:1px solid var(--line);padding-top:22px}.trust-row div{display:grid;gap:3px}.trust-row strong{font-size:1.35rem}.trust-row span{font-size:.76rem;color:var(--muted)}.hero-visual{position:relative;display:flex;align-items:center}.hero-image-wrap{position:relative;width:100%;z-index:1}.hero-image-wrap img{width:100%;height:610px;object-fit:cover;border-radius:180px 180px 22px 22px;display:block;filter:saturate(.82)}.hero-shape{position:absolute;width:75%;height:45%;bottom:-25px;right:-24px;background:var(--mint);border-radius:30px;z-index:0}.image-badge{position:absolute;left:-35px;bottom:42px;background:#fff;border-radius:18px;padding:16px 19px;display:flex;gap:12px;align-items:center;box-shadow:0 15px 40px rgba(23,59,57,.14)}.badge-icon{width:32px;height:32px;display:grid;place-items:center;background:var(--mint);border-radius:50%;color:var(--teal)}.image-badge b,.image-badge small{display:block}.image-badge b{font-size:.82rem}.image-badge small{color:var(--muted);font-size:.74rem}.service-strip{background:var(--teal);color:#fff;padding:100px 6vw;display:grid;grid-template-columns:.8fr 1.5fr;gap:8vw}.service-strip .eyebrow{color:var(--mint)}.service-intro{}.section-intro p{max-width:330px;color:#b9d2ca}.service-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px}.service-card{padding:25px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:18px;min-height:200px;display:flex;gap:17px;transition:transform .2s,background .2s}.service-card:hover{transform:translateY(-5px);background:rgba(255,255,255,.14)}.service-card.featured{background:var(--mint);color:var(--ink);border-color:var(--mint)}.card-number{font-size:.75rem;font-weight:800;opacity:.65}.service-card h3{font-size:1.2rem;margin-bottom:8px;letter-spacing:-.04em}.service-card p{font-size:.88rem;line-height:1.5;opacity:.78;margin-bottom:18px}.service-card strong{font-size:.88rem}.booking-section{padding:110px 6vw;max-width:1150px;margin:auto}.booking-heading{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:44px}.booking-heading p{max-width:380px;color:var(--muted)}.booking-form{background:#fff;border:1px solid var(--line);border-radius:24px;padding:40px;box-shadow:0 22px 60px rgba(23,59,57,.06)}.form-step{display:grid;grid-template-columns:36px 1fr;gap:8px 12px;margin-bottom:24px}.form-step>span{color:var(--orange);font-weight:800;font-size:.78rem;padding-top:4px}.form-step label{font-weight:750}.form-step select,.form-step input,.form-step textarea{grid-column:2;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);padding:10px 0;font:inherit;outline:none;width:100%;resize:vertical}.form-step select:focus,.form-step input:focus,.form-step textarea:focus{border-color:var(--teal)}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:40px}.form-footer{border-top:1px solid var(--line);margin-top:12px;padding-top:24px;display:flex;gap:30px;justify-content:space-between;align-items:center}.form-footer p{font-size:.8rem;color:var(--muted);max-width:490px;margin:0}.success-message{margin-top:20px;background:var(--mint);border-radius:20px;padding:25px;display:flex;gap:15px}.success-message>span{font-size:1.5rem}.success-message h3{margin-bottom:5px}.success-message p{margin:0;color:#46605a}.how-section{background:#e7eee5;padding:100px 12vw;display:grid;grid-template-columns:1fr 1fr;gap:10vw}.how-copy p{max-width:410px;color:var(--muted);font-size:1.05rem}.steps{border-top:1px solid #cbd9ca}.step{display:flex;gap:25px;padding:28px 0;border-bottom:1px solid #cbd9ca}.step>span{font-size:.75rem;color:var(--orange);font-weight:800}.step h3{margin-bottom:6px;font-size:1.2rem}.step p{margin:0;color:var(--muted)}.about-section{padding:110px 6vw}.about-card{max-width:1080px;margin:auto;background:var(--mint);border-radius:30px;padding:64px 7%;display:grid;grid-template-columns:110px 1fr;gap:30px}.about-mark{font-size:7rem;line-height:.7;color:var(--teal);font-weight:800;letter-spacing:-.15em}.about-card p{max-width:560px;color:#42615b;font-size:1.05rem}.site-footer{padding:38px 6vw;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:.84rem}.site-footer p{margin:0}.footer-contact{font-size:.78rem}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:900px){.nav-links{display:none}.section-grid,.service-strip,.how-section{grid-template-columns:1fr}.hero-copy{padding-top:10px}.hero-visual{margin-top:20px}.hero-image-wrap img{height:500px}.service-strip{gap:55px}.booking-heading{display:block}.booking-heading p{margin-top:25px}.about-card{grid-template-columns:1fr}.about-mark{font-size:5rem}.site-footer{flex-wrap:wrap;gap:18px}}@media(max-width:600px){.site-header{padding:0 5vw}.header-actions .button{display:none}.section-grid,.booking-section,.about-section{padding-left:5vw;padding-right:5vw}.section-grid{padding-top:65px;padding-bottom:75px}.hero-buttons{align-items:flex-start;flex-direction:column;gap:18px}.trust-row{gap:15px;justify-content:space-between}.trust-row span{font-size:.68rem}.hero-image-wrap img{height:390px;border-radius:120px 120px 18px 18px}.image-badge{left:10px;bottom:20px}.service-strip{padding:75px 5vw}.service-cards{grid-template-columns:1fr}.booking-form{padding:25px 20px}.form-row{grid-template-columns:1fr;gap:0}.form-footer{display:block}.form-footer .button{margin-top:20px;width:100%}.how-section{padding:75px 5vw}.about-card{padding:38px 28px}.site-footer{padding:30px 5vw;display:grid}}
+/* Blue and white visual direction */
+:root{--ink:#102a43;--muted:#6d8297;--teal:#145da0;--mint:#dff2ff;--paper:#f5f9fd;--line:#dce8f2;--white:#fff;--orange:#55b8e8}
+/* Final palette override */
+:root{--ink:#102a43!important;--muted:#6d8297!important;--teal:#145da0!important;--mint:#dff2ff!important;--paper:#f5f9fd!important;--line:#dce8f2!important;--orange:#55b8e8!important}
+/* Modern service-brand polish */
+html body{background:linear-gradient(180deg,#f8fbff 0%,#f3f8fc 48%,#fff 100%);letter-spacing:-.01em}
+html body .site-header{height:84px;border-bottom:1px solid rgba(220,232,242,.8);box-shadow:0 8px 28px rgba(16,42,67,.04)}
+html body .brand{letter-spacing:-.055em}
+html body .brand-mark{border-radius:12px;box-shadow:0 8px 16px rgba(20,93,160,.18)}
+html body .button{box-shadow:0 10px 20px rgba(20,93,160,.16);padding-left:25px;padding-right:25px}
+html body .hero{padding-top:110px}
+html body .hero-copy h1{font-weight:850;letter-spacing:-.085em}
+html body .hero-visual:before{content:'';position:absolute;width:170px;height:170px;border-radius:50%;background:#dff2ff;top:8%;right:-4%;filter:blur(1px)}
+html body .hero-image-wrap img{box-shadow:0 28px 60px rgba(16,42,67,.16);border:8px solid rgba(255,255,255,.85)}
+html body .hero-shape{background:linear-gradient(135deg,#dff2ff,#b9e6fb);border-radius:36px}
+html body .service-strip{background:linear-gradient(135deg,#0f4d84 0%,#145da0 58%,#2787bf 100%);position:relative;overflow:hidden}
+html body .service-strip:after{content:'';position:absolute;width:520px;height:520px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-160px;top:-210px;box-shadow:0 0 0 45px rgba(255,255,255,.035),0 0 0 90px rgba(255,255,255,.025)}
+html body .service-card{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);backdrop-filter:blur(8px);border-radius:22px}
+html body .service-card.featured{background:#fff;color:var(--ink);box-shadow:0 18px 40px rgba(4,36,70,.18)}
+html body .booking-section{max-width:1180px}
+html body .booking-form{border:1px solid rgba(220,232,242,.9);box-shadow:0 25px 70px rgba(16,42,67,.09);border-radius:28px}
+html body .form-step select,html body .form-step input,html body .form-step textarea{background:#f8fbfe;border:1px solid #e5eef6;border-radius:12px;padding:13px 14px;margin-top:5px}
+html body .form-step select:focus,html body .form-step input:focus,html body .form-step textarea:focus{border-color:#55b8e8;box-shadow:0 0 0 4px rgba(85,184,232,.12)}
+html body .about-card{box-shadow:0 20px 55px rgba(20,93,160,.1);border:1px solid rgba(255,255,255,.7)}
+html body .site-footer{background:#fff}
+/* Remove remaining legacy green accents */
+html body .how-section{background:#eef7fd}
+html body .steps,html body .step{border-color:#d7e7f2}
+html body .section-intro p{color:#c8e2f2}
+html body .about-card p{color:#41647f}
+html body .button:hover{background:#0d4e8c}
+html body .image-badge{box-shadow:0 15px 40px rgba(16,42,67,.14)}
+html body .success-message p{color:#41647f}
+/* Linen-inspired visual direction for PuhasPro */
+html body{background:#fff;color:#132b43}
+html body .site-header{background:rgba(255,255,255,.92);height:82px;border-bottom:1px solid #e5eef5;box-shadow:none}
+html body .hero{max-width:1240px;padding-top:92px;padding-bottom:105px;gap:7vw}
+html body .hero-copy h1{font-size:clamp(3.4rem,6vw,6.1rem);line-height:.96;letter-spacing:-.09em}
+html body .hero-copy h1 em,html body h2 em{color:#1a5789;font-style:italic}
+html body .hero-text{max-width:470px;color:#668096;font-size:1.08rem}
+html body .hero-buttons{margin:30px 0 46px}
+html body .button{background:#1a5789;color:#fff;border-radius:10px;box-shadow:none;padding:14px 22px}
+html body .button:hover{background:#123f67;transform:translateY(-1px)}
+html body .hero-image-wrap img{height:570px;border:0;border-radius:28px;box-shadow:none;filter:saturate(.78) brightness(1.04)}
+html body .hero-shape{background:#dff2ff;border-radius:28px;width:88%;height:36%;right:-28px;bottom:-22px}
+html body .image-badge{left:-18px;bottom:28px;border:1px solid #e5eef5;box-shadow:0 14px 30px rgba(19,43,67,.1);border-radius:12px}
+html body .badge-icon{background:#dff2ff;color:#1a5789}
+html body .trust-row{border-top-color:#e5eef5}
+html body .service-strip{background:#dff2ff;color:#132b43;padding:95px 7vw;grid-template-columns:.9fr 1.4fr;gap:7vw}
+html body .service-strip .eyebrow{color:#1a5789}
+html body .service-cards{gap:16px}
+html body .service-card,html body .service-card.featured{background:#fff;color:#132b43;border:1px solid #d3e6f2;border-radius:14px;box-shadow:none}
+html body .service-card:hover{background:#fff;transform:translateY(-3px);box-shadow:0 14px 30px rgba(19,43,67,.08)}
+html body .service-card p{color:#668096;opacity:1}
+html body .service-card strong{color:#1a5789}
+html body .booking-section{padding-top:100px;padding-bottom:105px}
+html body .booking-form{border-radius:16px;box-shadow:0 16px 45px rgba(19,43,67,.07);padding:38px}
+html body .form-step select,html body .form-step input,html body .form-step textarea{background:#f7fbfe;border:1px solid #dcebf4;border-radius:8px}
+html body .how-section{background:#fff;padding:95px 12vw;border-top:1px solid #e5eef5}
+html body .about-section{background:#f5faff;padding-top:95px;padding-bottom:95px}
+html body .about-card{background:#132b43;color:#fff;border-radius:22px;box-shadow:none}
+html body .about-card h2 em{color:#bce7fb}
+html body .about-card p{color:#b5c9d9}
+html body .about-mark{color:#bce7fb}
+html body .site-footer{background:#fff}
+/* Wider layout: full-width editorial sections */
+html body .section-grid{max-width:none;width:100%;padding-left:7vw;padding-right:7vw;gap:5vw}
+html body .hero{max-width:none;padding-top:90px;padding-bottom:115px}
+html body .hero-copy{max-width:720px}
+html body .hero-text{max-width:610px}
+html body .service-strip{width:100%;padding-left:7vw;padding-right:7vw}
+html body .booking-section{max-width:none;width:100%;padding-left:10vw;padding-right:10vw}
+html body .booking-heading{max-width:1280px;margin-left:auto;margin-right:auto}
+html body .booking-form{max-width:1280px;margin-left:auto;margin-right:auto}
+html body .how-section{width:100%;padding-left:12vw;padding-right:12vw}
+html body .about-section{width:100%;padding-left:7vw;padding-right:7vw}
+html body .about-card{max-width:none;width:100%;margin:0;padding-left:8vw;padding-right:8vw}
+@media(max-width:900px){html body .section-grid,html body .service-strip,html body .booking-section,html body .about-section{padding-left:6vw;padding-right:6vw}html body .how-section{padding-left:8vw;padding-right:8vw}}
+/* Pricing rhythm and add-ons */
+html body .pricing-section{width:100%;padding:105px 10vw 110px;background:#fff}
+html body .pricing-heading{max-width:1280px;margin:0 auto 42px;display:flex;justify-content:space-between;gap:60px;align-items:end}
+html body .pricing-heading p{max-width:420px;color:#6d8297;margin:0}
+html body .plan-grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+html body .plan-card{position:relative;border:1px solid #dce8f2;border-radius:14px;padding:28px;background:#fff;min-height:285px}
+html body .plan-card.popular{background:#f2f9fd;border-color:#55b8e8;box-shadow:0 12px 28px rgba(20,93,160,.08)}
+html body .plan-label{font-size:1.05rem;font-weight:800;display:block;margin-bottom:14px}
+html body .plan-card>strong{font-size:2.3rem;letter-spacing:-.06em;color:#132b43;display:block;margin-bottom:12px}
+html body .plan-card p{color:#6d8297;font-size:.88rem;min-height:42px}
+html body .plan-card ul{list-style:none;padding:14px 0 0;margin:0;border-top:1px solid #dce8f2;color:#526d84;font-size:.82rem}
+html body .plan-card li{padding:9px 0;border-bottom:1px solid #e8f0f5}
+html body .popular-tag{position:absolute;top:-12px;left:22px;background:#55b8e8;color:#07375d;padding:5px 12px;border-radius:999px;text-transform:uppercase;letter-spacing:.1em;font-size:.62rem;font-weight:800}
+html body .pricing-note{max-width:1280px;margin:20px auto 26px;color:#6d8297;font-size:.82rem;font-style:italic}
+html body .special-grid{max-width:1280px;margin:0 auto 22px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+html body .special-grid article{background:#eaf5fb;border-radius:14px;padding:24px}
+html body .special-grid h3{margin-bottom:10px;font-size:1.05rem}.special-grid h3 span{color:#2381ad;font-size:.83rem;margin-left:6px}
+html body .special-grid p{margin:0;color:#5e7890;font-size:.85rem}
+html body .addons{max-width:1280px;margin:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.76rem;color:#587187}
+html body .addons strong{text-transform:uppercase;letter-spacing:.12em;font-size:.65rem;color:#1a5789;margin-right:4px}
+html body .addons span{border:1px solid #dce8f2;border-radius:999px;padding:7px 12px;background:#fff}
+@media(max-width:800px){html body .pricing-section{padding-left:6vw;padding-right:6vw}.pricing-heading{display:block}.pricing-heading p{margin-top:22px}.plan-grid,.special-grid{grid-template-columns:1fr}.plan-card{min-height:auto}}
+/* Competitor-style navigation and more open headline tracking */
+html body .nav-links{gap:31px;align-items:center;font-size:.93rem}
+html body .nav-links a{white-space:nowrap;color:#566e84}
+html body .nav-links a.active,html body .nav-links a:hover{color:#1a7890}
+html body .nav-chevron{font-size:1.1rem;margin-left:3px;color:#6d8297}
+html body .header-actions{gap:24px}
+html body .language-select select{font-size:.86rem;letter-spacing:.05em;color:#5e7186;border:0}
+html body .header-actions .button{background:#1d8293;border-radius:10px;padding:16px 26px;font-size:.95rem}
+html body .hero-copy h1{letter-spacing:-.035em;word-spacing:.025em}
+html body .hero-copy h1 em{letter-spacing:-.025em}
+@media(max-width:1100px){html body .nav-links{gap:16px;font-size:.82rem}.site-header{padding-left:4vw;padding-right:4vw}}
+/* Hero headline proportions */
+html body .hero-copy h1{font-size:clamp(3rem,4.25vw,4.9rem);line-height:.98;letter-spacing:-.045em;white-space:nowrap}
+html body .hero-copy h1 em{display:block;white-space:nowrap;margin-top:8px;letter-spacing:-.035em}
+html body .hero-copy{max-width:650px}
+html body .hero{gap:6vw;padding-top:78px;padding-bottom:92px}
+@media(max-width:900px){html body .hero-copy h1{white-space:normal;font-size:clamp(3rem,10vw,4.5rem)}html body .hero-copy h1 em{white-space:normal}}
+/* Competitor-inspired hero rhythm and proof strip */
+html body .hero{min-height:690px;align-items:center}
+html body .hero-copy h1{font-size:clamp(3rem,4.6vw,5.4rem);line-height:1.02}
+html body .hero-text{font-size:1.12rem;line-height:1.58}
+html body .hero-buttons .button{padding:16px 28px}
+html body .proof-strip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #e4edf4;border-bottom:1px solid #e4edf4;background:#f8fbfe;padding:28px 7vw;gap:20px}
+html body .proof-strip>div{display:flex;align-items:center;justify-content:center;gap:12px;color:#355b78;border-right:1px solid #dce8f2;min-height:42px}
+html body .proof-strip>div:last-child{border-right:0}
+html body .proof-icon{display:grid;place-items:center;width:28px;height:28px;border:1px solid #55b8e8;color:#1a7890;border-radius:50%;font-weight:800}
+html body .proof-strip strong{font-size:.86rem}
+@media(max-width:800px){html body .hero{min-height:auto}.proof-strip{grid-template-columns:1fr 1fr!important;padding:22px 6vw!important}.proof-strip>div:nth-child(2){border-right:0}.proof-strip>div{justify-content:flex-start}.proof-strip strong{font-size:.75rem}}
+/* Restore the previous hero composition; keep only the requested text placement */
+html body .hero{min-height:0;align-items:center;padding-top:78px;padding-bottom:92px}
+html body .hero-copy h1{font-size:clamp(3rem,4.25vw,4.9rem);line-height:.98;letter-spacing:-.045em}
+html body .proof-strip{display:none}
+/* Inline language switch inspired by the competitor header */
+html body .language-switch{display:flex;align-items:center;gap:8px;color:#9aa8b8;font-size:.88rem;font-weight:700}
+html body .language-switch .lang-option{border:0;background:transparent;padding:0;color:#8b9bad;font:inherit;cursor:pointer;transition:color .2s}
+html body .language-switch .lang-option.active,html body .language-switch .lang-option:hover{color:#1a7890}
+html body .language-switch>span{color:#c3d0dc;font-weight:400}
+/* Softer Linen-inspired blue palette */
+html body .button,html body .header-actions .button{background:#4faeca;color:#fff}
+html body .button:hover,html body .header-actions .button:hover{background:#368fae}
+html body .nav-links a.active,html body .nav-links a:hover,html body .language-switch .lang-option.active,html body .language-switch .lang-option:hover{color:#2b7fa1}
+html body .eyebrow,html body .text-link,html body .service-card strong,html body .addons strong{color:#2b7fa1}
+html body .eyebrow-dot{background:#73c9e3}
+html body .mint,html body .hero-shape{background:#e6f6fc}
+html body .proof-icon{border-color:#73c9e3;color:#2b7fa1}
+/* Unified two-color brand system */
+html body .brand>span:last-child>span{color:#4faeca}
+html body .hero-copy h1 em,html body h2 em,html body .text-link,html body .nav-links a.active,html body .nav-links a:hover,html body .language-switch .lang-option.active,html body .language-switch .lang-option:hover,html body .eyebrow,html body .service-card strong,html body .addons strong{color:#4faeca}
+html body .button,html body .header-actions .button{background:#4faeca}
+html body .button:hover,html body .header-actions .button:hover{background:#3d9ab7}
+html body .hero-copy h1,html body h2,html body h3,html body .plan-card>strong,html body .trust-row strong{color:#102a43}
+html body .hero-text,html body .booking-heading p,html body .how-copy p,html body .plan-card p,html body .special-grid p,html body .site-footer,html body .trust-row span{color:#6d8297}
+html body .service-strip,html body .hero-shape,html body .about-section{background:#eaf7fc}
+html body .popular-tag{background:#4faeca;color:#fff}
+/* Logo aligned with the two-color system */
+html body .brand-mark{background:#4faeca;color:#fff;box-shadow:0 8px 16px rgba(79,174,202,.2)}
+html body .brand>span:last-child{color:#102a43}
+html body .brand>span:last-child>span{color:#4faeca}
+/* Language-specific headline fit */
+html[lang="ru"] body .hero-copy h1{font-size:clamp(2.55rem,3.55vw,4.2rem);letter-spacing:-.04em}
+html[lang="ru"] body .hero-copy h1 em{font-size:.9em;letter-spacing:-.045em}
+html[lang="et"] body .hero-copy h1{font-size:clamp(2.75rem,3.95vw,4.55rem)}
+@media(max-width:900px){html[lang="ru"] body .hero-copy h1{font-size:clamp(2.65rem,9vw,4rem)}}
+/* Premium hover states */
+html body .hero-buttons .button,html body .header-actions .button{background:#4faeca;color:#fff;box-shadow:0 8px 18px rgba(79,174,202,.16);transition:background .22s ease,box-shadow .22s ease,transform .22s ease}
+html body .hero-buttons .button:hover,html body .header-actions .button:hover{background:#102a43;color:#fff;box-shadow:0 12px 24px rgba(16,42,67,.18);transform:translateY(-2px)}
+html body .hero-buttons .text-link{color:#102a43;transition:color .22s ease}
+html body .hero-buttons .text-link:hover{color:#4faeca}
+/* Secondary CTA as an outlined button */
+html body .hero-buttons .text-link{display:inline-flex;align-items:center;gap:7px;border:1.5px solid #73c9e3;border-radius:10px;padding:14px 20px;color:#102a43;font-weight:750;transition:background .22s ease,color .22s ease,border-color .22s ease,transform .22s ease}
+html body .hero-buttons .text-link:hover{background:#eaf7fc;border-color:#4faeca;color:#1a7890;transform:translateY(-2px)}
+/* Refined secondary CTA */
+html body .hero-buttons .text-link{min-width:205px;justify-content:center;border:1px solid #b8ddea;border-radius:9px;padding:15px 21px;background:#fff;color:#1a6685;box-shadow:0 6px 16px rgba(16,42,67,.05);font-size:.98rem}
+html body .hero-buttons .text-link span{font-size:1.15rem;line-height:1}
+html body .hero-buttons .text-link:hover{background:#f3fbfe;border-color:#4faeca;color:#14526e;box-shadow:0 8px 20px rgba(79,174,202,.13);transform:translateY(-2px)}
+/* Improve contrast in the booking section */
+html body .booking-section{background:#eaf7fc}
+html body .booking-heading h2{color:#102a43}
+html body .booking-heading h2 em{color:#4faeca}
+html body .booking-heading p{color:#607b91}
+html body .booking-heading h2{letter-spacing:-.055em}
+html body .booking-heading h2 em{letter-spacing:-.035em}
+html[lang="en"] body .booking-heading h2{font-size:clamp(2.9rem,4.8vw,5.5rem)}
+html[lang="et"] body .booking-heading h2{font-size:clamp(2.45rem,4vw,4.8rem)}
+html[lang="ru"] body .booking-heading h2{font-size:clamp(2.35rem,3.8vw,4.55rem)}
+html[lang="et"] body .booking-heading p,html[lang="ru"] body .booking-heading p{max-width:360px;line-height:1.5}
+html body .booking-heading{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.55fr);align-items:end;gap:clamp(36px,7vw,120px);padding-bottom:52px}
+html body .booking-heading .eyebrow{margin-bottom:24px}
+html body .booking-heading h2{margin:0;max-width:900px}
+html body .booking-heading p{margin:0;align-self:end;font-size:1.05rem;line-height:1.55}
+html body .hero-copy h1,html body .section-intro h2,html body .booking-heading h2,html body .how-copy h2,html body .about-card h2{display:block}
+html body .hero-copy h1 br,html body .section-intro h2 br,html body .booking-heading h2 br,html body .how-copy h2 br,html body .about-card h2 br{display:block!important;height:0}
+html body .hero-copy h1 em,html body .section-intro h2 em,html body .booking-heading h2 em,html body .how-copy h2 em,html body .about-card h2 em{display:block;margin-top:.04em}
+html body .booking-form{margin-top:0}
+@media(max-width:900px){html body .booking-heading{grid-template-columns:1fr;gap:18px;padding-bottom:34px}html body .booking-heading p{max-width:560px!important}}
+html body .booking-section .eyebrow{color:#2b7fa1}
+html body .booking-form{background:#fff}
+/* Compact booking composition */
+html body .booking-heading{max-width:1120px}
+html body .booking-heading h2{font-size:clamp(2.8rem,4.25vw,4.7rem);white-space:nowrap}
+html body .booking-form{max-width:980px}
+@media(max-width:900px){html body .booking-heading h2{white-space:normal}}
+html body .booking-heading h2 br{display:none}
+html body .booking-heading h2 em:before{content:' '}
+html body .form-footer p{flex:1;max-width:none;white-space:nowrap;font-size:.82rem}
+html body .form-footer .button{flex:0 0 auto;white-space:nowrap}
+@media(max-width:800px){html body .form-footer p{white-space:normal}}
+/* Keep the how-it-works headline in two intentional lines */
+html body .how-copy h2{font-size:clamp(2.45rem,4vw,4.5rem);white-space:nowrap}
+html body .how-copy h2 br{display:block}
+@media(max-width:700px){html body .how-copy h2{white-space:normal}.how-copy h2 br{display:block}}
+/* Stronger trust / about section contrast */
+html body .about-card h2{color:#fff!important;max-width:760px}
+html body .about-card h2 em{color:#bce7fb!important}
+html body .about-card .eyebrow{color:#73c9e3}
+html body .about-card .text-link{color:#73c9e3}
+html body .about-card .text-link:hover{color:#fff}
+html body .about-card{min-height:390px;align-items:center;padding-top:72px;padding-bottom:72px}
+html body .about-card p{max-width:650px;line-height:1.65}
+html body .about-mark{align-self:start;padding-top:5px}
+/* Consistent open headline tracking */
+html body h1,html body h2,html body h3{letter-spacing:-.018em}
+html body h1 em,html body h2 em,html body h3 em{letter-spacing:.008em}
+html body .hero-copy h1{letter-spacing:-.022em}
+html body .hero-copy h1 em{letter-spacing:.004em}
+/* Restore previous headline tracking */
+html body h1,html body h2,html body h3{letter-spacing:-.07em}
+html body h1 em,html body h2 em,html body h3 em{letter-spacing:inherit}
+html body .hero-copy h1{letter-spacing:-.045em}
+html body .hero-copy h1 em{letter-spacing:-.035em}
+/* Services section: balanced two-line heading and readable copy */
+html body .section-intro h2{font-size:clamp(2.45rem,3.8vw,4.35rem);white-space:nowrap;line-height:1}
+html body .section-intro h2 br{display:block}
+html body .section-intro h2 em{display:block}
+html body .section-intro p{color:#607b91;max-width:410px;line-height:1.6}
+@media(max-width:800px){html body .section-intro h2{white-space:normal}}
+/* Match multilingual service headings to the approved hero rhythm */
+html[lang="ru"] body .section-intro h2{font-size:clamp(2rem,3.05vw,3.5rem);letter-spacing:-.045em}
+html[lang="ru"] body .section-intro h2 em{font-size:.9em;letter-spacing:-.035em}
+html[lang="et"] body .section-intro h2{font-size:clamp(2.15rem,3.3vw,3.8rem)}
+html[lang="ru"] body .section-intro p,html[lang="et"] body .section-intro p{color:#607b91!important}
+html body .section-intro p{color:#607b91!important}
+/* Keep the English services headline in the same scale as the hero headline */
+html[lang="en"] body .section-intro h2{font-size:clamp(2.7rem,4.2vw,4.8rem);letter-spacing:-.045em;line-height:.98}
+html[lang="en"] body .section-intro h2 em{font-size:1em;letter-spacing:-.035em}
+html[lang="en"] body .section-intro h2{width:100%;margin-bottom:28px;text-align:left}
+html[lang="en"] body .section-intro h2 br{display:block;height:0}
+html[lang="en"] body .section-intro h2 em{display:block;margin-top:.02em}
+/* Final visual pass: a calm, consistent blue system across the full prototype */
+html body{--ink:#102a43;--muted:#6d8297;--teal:#1f6596;--mint:#e8f6fc;--paper:#fff;--line:#d8e7f0;--white:#fff;--orange:#66c5e5;background:#fff;color:#102a43}
+html body .site-header{height:88px;padding:0 clamp(24px,6vw,96px);background:rgba(255,255,255,.94);border-bottom:1px solid #e4edf3}
+html body .brand{color:#102a43;font-size:1.28rem;letter-spacing:-.05em}
+html body .brand-mark{width:38px;height:38px;border-radius:13px;background:#1f6596;color:#fff;box-shadow:0 8px 18px rgba(16,42,67,.14)}
+html body .brand>span:last-child>span{color:#1f6596}
+html body .brand{color:#102a43!important}
+html body .brand-mark{background:#1f6596!important;color:#fff!important}
+html body .brand>span:last-child>span{color:#2d83ab!important}
+html body .site-header{padding-left:max(6vw,calc((100vw - 1480px)/2));padding-right:max(6vw,calc((100vw - 1480px)/2))}
+html body .service-strip{padding-left:max(6vw,calc((100vw - 1480px)/2));padding-right:max(6vw,calc((100vw - 1480px)/2))}
+html body .service-strip{padding-left:max(24px,calc((100vw - 1480px)/2 + 6vw));padding-right:max(24px,calc((100vw - 1480px)/2 + 6vw));grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:clamp(48px,6vw,96px)}
+html body .service-strip .section-intro{max-width:680px}
+html body .service-strip .section-intro{margin-left:0}
+/* Service catalogue: competitor-inspired clarity, PuhasPro content */
+html body .service-strip{display:block;padding-top:112px;padding-bottom:120px}
+html body .service-strip .section-intro{max-width:760px;margin:0 auto 54px;text-align:center}
+html body .service-strip .section-intro .eyebrow{justify-content:center}
+html body .service-strip .section-intro h2{margin-left:auto;margin-right:auto}
+html body .service-strip .section-intro p{max-width:560px;margin-left:auto;margin-right:auto}
+html body .service-cards{max-width:1480px;margin:0 auto;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+html body .service-card{min-height:315px;display:flex;flex-direction:column}
+html body .service-card>div:last-child{display:flex;flex-direction:column;height:100%;flex:1}
+html body .service-card h3{margin-top:8px;min-height:2.5em}
+html body .service-card p{flex:1}
+html body .service-card .card-number{font-size:.9rem;font-weight:800;letter-spacing:.08em}
+html body .service-card{text-align:center}
+html body .service-card>div:last-child{align-items:center}
+html body .service-card h3{width:100%;margin-top:14px}
+html body .service-card p{max-width:290px}
+html body .service-strip .section-intro h2{text-align:center!important;width:100%}
+html body .service-strip .section-intro h2 em{text-align:center;width:100%}
+@media(max-width:1000px){html body .service-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+html body .faq-section{background:#fff;padding:105px max(24px,calc((100vw - 1480px)/2 + 6vw));display:grid;grid-template-columns:minmax(280px,.8fr) minmax(0,1.2fr);gap:clamp(48px,8vw,130px)}
+html body .faq-title{font-size:clamp(2.5rem,4.2vw,4.8rem);line-height:.96;margin:22px 0 0}
+html body .faq-item{border-top:1px solid #d8e7f0;padding:22px 0}
+html body .faq-item:last-child{border-bottom:1px solid #d8e7f0}
+html body .faq-item summary{cursor:pointer;list-style:none;font-size:1.05rem;font-weight:750;color:#102a43;padding-right:28px;position:relative}
+html body .faq-item summary::-webkit-details-marker{display:none}
+html body .faq-item summary:after{content:'+';position:absolute;right:0;color:#2d83ab;font-size:1.4rem;font-weight:400}
+html body .faq-item[open] summary:after{content:'−'}
+html body .faq-item p{color:#607b91;line-height:1.6;max-width:680px;margin:14px 0 0}
+@media(max-width:800px){html body .faq-section{grid-template-columns:1fr;padding-top:76px;padding-bottom:76px;gap:35px}}
+@media(max-width:600px){html body .service-strip{padding-left:6vw!important;padding-right:6vw!important}html body .service-strip .section-intro{width:100%;margin-left:0}}
+/* English baseline: keep every headline readable and structurally stacked */
+html[lang="en"] body h1,html[lang="en"] body h2,html[lang="en"] body h3{overflow-wrap:normal;word-break:normal}
+html[lang="en"] body .hero-copy h1{font-size:clamp(3.25rem,5.25vw,6rem);line-height:.94;max-width:760px;margin-bottom:30px}
+html[lang="en"] body .hero-copy h1 br,html[lang="en"] body .section-intro h2 br,html[lang="en"] body .booking-heading h2 br,html[lang="en"] body .how-copy h2 br,html[lang="en"] body .about-card h2 br{display:block!important;height:0;content:""}
+html[lang="en"] body .hero-copy h1 em,html[lang="en"] body .section-intro h2 em,html[lang="en"] body .booking-heading h2 em,html[lang="en"] body .how-copy h2 em,html[lang="en"] body .about-card h2 em{display:block;white-space:nowrap;margin-top:.04em}
+html[lang="en"] body .hero-copy h1>em{display:block!important;width:100%;margin-top:.1em}
+html[lang="en"] body .hero-text{font-size:1.1rem;max-width:590px;line-height:1.58}
+html[lang="en"] body .section-intro h2{font-size:clamp(2.65rem,4.1vw,4.65rem);line-height:.96;margin-bottom:28px}
+html[lang="en"] body .section-intro .eyebrow{font-size:.72rem;letter-spacing:.16em;margin-bottom:24px}
+html[lang="en"] body .section-intro h2{font-size:clamp(2.7rem,4.35vw,5rem);line-height:.94;margin-bottom:30px;max-width:680px}
+html[lang="en"] body .section-intro p{font-size:1.1rem;line-height:1.58;max-width:500px;color:#607b91}
+html[lang="en"] body .booking-heading h2{font-size:clamp(2.7rem,4.35vw,5rem);line-height:.96;white-space:normal!important;margin-bottom:0}
+html[lang="en"] body .booking-heading p{max-width:330px;line-height:1.55}
+html[lang="en"] body .how-copy h2{font-size:clamp(2.7rem,4.3vw,5rem);line-height:.96}
+html[lang="en"] body .about-card h2{font-size:clamp(2.45rem,4vw,4.6rem);line-height:.98}
+@media(max-width:700px){html[lang="en"] body .hero-copy h1,html[lang="en"] body .section-intro h2,html[lang="en"] body .booking-heading h2,html[lang="en"] body .how-copy h2,html[lang="en"] body .about-card h2{font-size:clamp(2.45rem,11vw,4rem)}html[lang="en"] body .hero-copy h1 em,html[lang="en"] body .section-intro h2 em,html[lang="en"] body .booking-heading h2 em,html[lang="en"] body .how-copy h2 em,html[lang="en"] body .about-card h2 em{white-space:normal}}
+html body .nav-links{gap:clamp(16px,2.3vw,34px);color:#60778d;font-size:.95rem}
+html body .nav-links a.active,html body .nav-links a:hover{color:#1f6596}
+html body .language-switch{display:flex;align-items:center;gap:7px;color:#93a5b5;font-weight:700}
+html body .lang-option{border:0;background:transparent;color:#7b8fa3;font:inherit;font-weight:700;padding:4px;cursor:pointer}
+html body .lang-option.active,html body .lang-option:hover{color:#1f6596}
+html body .button{border-radius:15px;background:#1f6596;padding:16px 24px;box-shadow:0 12px 24px rgba(31,101,150,.16)}
+html body .button:hover{background:#102a43;transform:translateY(-2px);box-shadow:0 14px 28px rgba(16,42,67,.2)}
+html body .button-small{padding:13px 20px}
+html body .eyebrow{color:#2d83ab;letter-spacing:.16em;font-size:.72rem}
+html body .eyebrow-dot{background:#66c5e5;width:9px;height:9px}
+html body .hero.section-grid{max-width:1480px;padding-top:96px;padding-bottom:105px;gap:clamp(48px,7vw,110px)}
+html body .hero-copy{padding-top:32px}
+html body .hero-text{color:#6d8297;line-height:1.55;max-width:620px}
+html body h1,html body h2,html body h3{color:#102a43}
+html body h1 em,html body h2 em{color:#4faeca}
+html body .text-link{color:#1f6596}
+html body .hero-image-wrap img{border-radius:34px;height:590px;filter:saturate(.82)}
+html body .hero-shape{background:#dff3fc;border-radius:34px}
+html body .image-badge{border:1px solid #e0edf4;box-shadow:0 14px 34px rgba(16,42,67,.12)}
+html body .badge-icon{background:#dff3fc;color:#1f6596}
+html body .trust-row{border-color:#dbe8f0}
+html body .trust-row span{color:#6d8297}
+html body .service-strip{background:#eaf7fc;color:#102a43;padding:108px clamp(24px,7vw,110px);grid-template-columns:minmax(300px,.78fr) minmax(0,1.4fr);gap:clamp(48px,7vw,110px)}
+html body .service-strip .eyebrow{color:#1f6596}
+html body .section-intro h2{color:#102a43}
+html body .section-intro h2 em{color:#4faeca}
+html body .service-cards{gap:18px}
+html body .service-card{background:#fff;color:#102a43;border:1px solid #d7e7f0;border-radius:22px;min-height:218px;padding:28px;box-shadow:0 12px 28px rgba(31,101,150,.06)}
+html body .service-card:hover{transform:translateY(-4px);border-color:#9dd8ed;box-shadow:0 18px 36px rgba(31,101,150,.12)}
+html body .service-card h3{font-size:1.12rem;color:#102a43}
+html body .service-card p{color:#6d8297;line-height:1.55}
+html body .service-card strong{color:#2d9bc0}
+html body .card-number{color:#4faeca}
+html body .booking-section{background:#fff;padding-top:110px;padding-bottom:120px}
+html body .booking-section{padding-top:82px;padding-bottom:88px}
+html body .booking-heading{padding-bottom:34px;gap:clamp(28px,5vw,80px)}
+html body .booking-heading h2{font-size:clamp(2.35rem,3.65vw,4.2rem)!important;line-height:.98}
+html body .booking-heading p{font-size:.98rem;max-width:310px}
+html body .booking-form{max-width:900px;padding:34px 38px;border-radius:20px}
+html body .booking-form .form-step{margin-bottom:18px}
+html body .booking-form .form-row{gap:24px}
+html body .booking-confirmation-note{font-size:.84rem;padding:11px 15px}
+@media(max-width:700px){html body .booking-section{padding-top:68px;padding-bottom:72px}html body .booking-form{padding:24px 20px}html body .booking-heading h2{font-size:clamp(2.2rem,10vw,3.4rem)!important}}
+html body .booking-heading h2{color:#102a43}
+html body .booking-heading h2 em{color:#4faeca}
+html body .booking-heading p{color:#607b91}
+html body .booking-form{border:1px solid #d7e7f0;border-radius:24px;box-shadow:0 18px 40px rgba(31,101,150,.08);background:#fff}
+html body .form-step label{color:#102a43}
+html body .form-step input,html body .form-step select,html body .form-step textarea{border-color:#cfe2ed;color:#102a43;background:#f8fcfe;border-radius:10px}
+html body .form-step input:focus,html body .form-step select:focus,html body .form-step textarea:focus{outline:2px solid #9ed9ed;border-color:#4faeca}
+html body .form-footer{border-color:#dbe8f0}
+html body .form-footer p{color:#607b91}
+html body .booking-context-row{margin-top:4px}
+html body .booking-extra-row{margin-top:4px}
+html body .booking-confirmation-note{grid-column:1/-1;background:#f1f9fc;border:1px solid #d4eaf3;border-radius:12px;padding:14px 18px;color:#42677f;font-size:.9rem;line-height:1.5;margin:4px 0 0}
+html body .how-section{background:#f8fcfe;padding-top:110px;padding-bottom:110px}
+html body .how-copy p,html body .step p{color:#607b91}
+html body .step{border-color:#d7e7f0}
+html body .step>span{color:#4faeca}
+html body .about-section{background:#eaf7fc;padding-top:105px;padding-bottom:105px}
+html body .about-card{background:#102a43;border:1px solid #214665;box-shadow:0 16px 34px rgba(16,42,67,.12)}
+html body .about-card h2{color:#fff!important}
+html body .about-card h2 em{color:#9edff4!important}
+html body .about-card p{color:#c4d9e6}
+html body .about-card .text-link{color:#73c9e3}
+html body .site-footer{background:#fff;border-color:#dbe8f0;color:#6d8297}
+@media(max-width:900px){html body .site-header{height:76px}.header-actions{gap:8px}.nav-links{display:none}html body .hero.section-grid{padding-top:65px;gap:40px}html body .service-strip{grid-template-columns:1fr;padding-top:80px;padding-bottom:85px}html body .hero-image-wrap img{height:500px}}
+@media(max-width:600px){html body .site-header{padding:0 5vw}.language-switch{font-size:.85rem}html body .hero.section-grid{padding-top:48px;padding-bottom:72px}html body .hero-image-wrap img{height:390px;border-radius:26px}html body .service-strip,html body .booking-section,html body .how-section,html body .about-section{padding-top:76px;padding-bottom:76px}html body .service-card{min-height:0}html body .booking-form{border-radius:18px}}
+
+/* Service choice and estimate panel */
+html body .service-card{position:relative;flex-direction:column;align-items:stretch;gap:8px;padding:28px 28px 22px}
+html body .service-card>div:nth-child(2){flex:1}
+html body .service-card-action{align-self:flex-start;border:0;background:transparent;padding:0;color:#2d83ab;font:inherit;font-size:.88rem;font-weight:800;cursor:pointer;text-align:left;transition:color .2s,transform .2s}
+html body .service-card-action:after{content:'  ↗';font-size:1.05rem}
+html body .service-card-action:hover{color:#102a43;transform:translateX(3px)}
+html body .service-card.featured .service-card-action{color:#102a43}
+html body .service-calculator{max-width:980px;margin:48px auto 0;padding:26px 30px;display:grid;grid-template-columns:minmax(240px,1fr) minmax(430px,1.3fr);gap:32px;align-items:center;background:#fff;border:1px solid #cfe6f0;border-radius:20px;box-shadow:0 12px 30px rgba(31,101,150,.08);text-align:left}
+html body .calculator-kicker{display:block;margin-bottom:6px;color:#2d83ab;font-size:.72rem;font-weight:850;letter-spacing:.14em;text-transform:uppercase}
+html body .service-calculator h3{margin:0 0 5px;color:#102a43;font-size:1.35rem;letter-spacing:-.04em}
+html body .service-calculator p{margin:0;color:#607b91;font-size:.84rem;line-height:1.45}
+html body .calculator-fields{display:grid;grid-template-columns:1fr 1fr 120px;gap:12px;align-items:end}
+html body .calculator-fields label{display:grid;gap:6px;color:#607b91;font-size:.72rem;font-weight:800}
+html body .calculator-fields select{width:100%;border:1px solid #cfe3ee;border-radius:10px;background:#f7fbfd;color:#102a43;padding:11px 12px;font:inherit;font-size:.82rem;outline:none}
+html body .calculator-fields select:focus{border-color:#4faeca}
+html body .estimate-result{display:grid;gap:1px;align-content:center;padding-left:14px;border-left:1px solid #dcecf3}
+html body .estimate-result small{color:#607b91;font-size:.68rem}
+html body .estimate-result strong{color:#2d83ab;font-size:1.45rem;letter-spacing:-.04em}
+@media(max-width:900px){html body .service-calculator{grid-template-columns:1fr}.calculator-fields{grid-template-columns:1fr 1fr 120px!important}}
+@media(max-width:600px){html body .service-card{padding:23px}.calculator-fields{grid-template-columns:1fr!important}.estimate-result{border-left:0;border-top:1px solid #dcecf3;padding:12px 0 0!important}.service-calculator{padding:22px!important;margin-top:32px!important}}
+
+/* One clear route for complex requests, separate from the standard-clean calculator. */
+html body .special-quote-section{max-width:1180px;margin:0 auto;padding:76px 6vw 86px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:64px;align-items:center}
+html body .special-quote-section .eyebrow{margin-bottom:18px}
+html body .special-quote-section h2{margin:0 0 18px;color:#102a43;font-size:clamp(2.8rem,4.6vw,4.8rem);line-height:.95}
+html body .special-quote-section h2 em{display:block;margin-top:.04em;color:#4faeca;font-family:Georgia,serif;font-weight:400}
+html body .special-quote-text{max-width:510px;margin:0 0 28px;color:#607b91;font-size:1rem;line-height:1.55}
+html body .special-quote-section .button{gap:8px;border-radius:13px;background:#102a43}
+html body .special-quote-section .button:hover{background:#155a9b}
+html body .special-quote-options{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+html body .special-quote-options span{padding:18px 18px;border:1px solid #cfe6f0;border-radius:14px;background:#f7fbfd;color:#155a9b;font-weight:750;font-size:.9rem;box-shadow:0 8px 18px rgba(31,101,150,.05)}
+html body .special-quote-options span:last-child{grid-column:1/-1}
+html body .pricing-section .special-grid{display:none}
+@media(max-width:800px){html body .special-quote-section{grid-template-columns:1fr;gap:32px;padding-top:60px;padding-bottom:66px}html body .special-quote-options{max-width:620px}}
+@media(max-width:500px){html body .special-quote-options{grid-template-columns:1fr}html body .special-quote-options span:last-child{grid-column:auto}}
+
+/* Stitch-inspired visual proof: a tactile before/after interaction. */
+html body .visual-proof-section{padding:100px 6vw 110px;background:#f7fbfd;text-align:center}
+html body .visual-proof-heading{max-width:720px;margin:0 auto 38px}
+html body .visual-proof-heading .eyebrow{justify-content:center;margin-bottom:16px}
+html body .visual-proof-heading h2{margin:0 0 15px;color:#102a43;font-size:clamp(2.4rem,4.2vw,4.2rem);line-height:.96}
+html body .visual-proof-heading h2 em{display:block;color:#4faeca;font-family:Georgia,serif;font-weight:400;margin-top:.04em}
+html body .visual-proof-text{max-width:540px;margin:0 auto;color:#607b91;font-size:1rem}
+html body .before-after{position:relative;width:min(100%,980px);height:480px;margin:0 auto;overflow:hidden;border-radius:22px;box-shadow:0 22px 55px rgba(16,42,67,.14);cursor:ew-resize;touch-action:none;background:#dcecf2}
+html body .before-after-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+html body .after-image{clip-path:inset(0 0 0 50%)}
+html body .before-after-divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#fff;box-shadow:0 0 0 1px rgba(16,42,67,.08);pointer-events:none}
+html body .before-after-handle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#155a9b;font-weight:900;font-size:1.15rem;box-shadow:0 6px 20px rgba(16,42,67,.2);pointer-events:none}
+html body .before-label,html body .after-label{position:absolute;top:18px;padding:7px 12px;border-radius:999px;background:rgba(16,42,67,.78);color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+html body .before-label{left:18px}html body .after-label{right:18px;background:rgba(45,131,171,.86)}
+@media(max-width:600px){html body .visual-proof-section{padding:72px 5vw 78px}html body .before-after{height:300px;border-radius:16px}html body .before-after-handle{width:40px;height:40px}}
+
+/* Booking wizard: compact, guided and easy to scan on every language. */
+html body .booking-form{position:relative}
+html body .booking-progress{display:flex;align-items:center;gap:10px;margin:-4px 0 18px;padding-bottom:18px;border-bottom:1px solid #e2edf3}
+html body .booking-progress-line{height:1px;background:#d7e7f0;flex:1;order:2}
+html body .booking-progress-item{display:flex;align-items:center;gap:7px;color:#93aabd;font-size:.78rem;white-space:nowrap;order:1}
+html body .booking-progress-item span{display:grid;place-items:center;width:27px;height:27px;border:1px solid #cfe3ee;border-radius:50%;font-weight:800;color:#7ea6bb}
+html body .booking-progress-item b:after{content:attr(data-label)}
+html body .booking-progress-item.is-active{color:#155a9b}
+html body .booking-progress-item.is-active span{background:#4faeca;border-color:#4faeca;color:#fff}
+html body .booking-step-hint{margin:0 0 25px;color:#607b91;font-size:.92rem}
+html body .wizard-hidden{display:none!important}
+html body .booking-step-controls{display:flex;justify-content:space-between;gap:14px;margin-top:16px;padding-top:18px;border-top:1px solid #e2edf3}
+html body .booking-step-controls .button{min-width:138px}
+html body .booking-step-controls .button-ghost{background:transparent;color:#1f6596;border:1px solid #b8ddeb}
+html body .booking-step-controls .button-ghost:hover{background:#eef8fc;color:#155a9b}
+html body .booking-form .form-footer{margin-top:0}
+html body .booking-form .form-footer .button{display:none}
+html body .booking-form .form-footer p{white-space:normal}
+@media(max-width:600px){html body .booking-progress{gap:5px}.booking-progress-item{font-size:.68rem!important}.booking-progress-item span{width:24px!important;height:24px!important}.booking-step-controls .button{min-width:0;flex:1}.booking-step-hint{font-size:.86rem!important}}

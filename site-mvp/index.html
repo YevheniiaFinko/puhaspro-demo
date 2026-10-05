@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-fixed": "#89f5e7", "inverse-surface": "#2f3130", "on-tertiary-container": "#fbfcff", "on-secondary-fixed": "#131b2e", "inverse-on-surface": "#f1f1ef", "on-background": "#1a1c1b", "outline": "#6d7a77", "on-primary": "#ffffff", "surface-container-lowest": "#ffffff", "on-primary-fixed": "#00201d", "inverse-primary": "#6bd8cb", "surface-tint": "#006a61", "tertiary-fixed": "#dce3e9", "secondary-fixed": "#dae2fd", "on-secondary": "#ffffff", "on-error-container": "#93000a", "error": "#ba1a1a", "on-tertiary-fixed-variant": "#40484d", "on-secondary-container": "#5c647a", "tertiary": "#565d62", "secondary-container": "#dae2fd", "surface-bright": "#f9f9f7", "primary-container": "#008378", "surface-container-low": "#f4f4f2", "error-container": "#ffdad6", "tertiary-fixed-dim": "#c0c7cd", "on-surface-variant": "#3d4947", "surface-container-highest": "#e2e3e1", "primary": "#00685f", "secondary": "#565e74", "on-tertiary-fixed": "#151d21", "outline-variant": "#bcc9c6", "background": "#f9f9f7", "on-primary-container": "#f4fffc", "on-primary-fixed-variant": "#005049", "secondary-fixed-dim": "#bec6e0", "on-surface": "#1a1c1b", "tertiary-container": "#6e767b", "primary-fixed-dim": "#6bd8cb", "surface-container-high": "#e8e8e6", "on-secondary-fixed-variant": "#3f465c", "surface": "#f9f9f7", "surface-container": "#eeeeec", "surface-variant": "#e2e3e1", "on-tertiary": "#ffffff", "surface-dim": "#dadad8", "on-error": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-md": "1.25rem", "gutter-mobile": "1rem", "space-xl": "3.5rem", "space-xs": "0.375rem", "margin": "3rem", "space-sm": "0.75rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "space-lg": "2rem" }, "fontFamily": { "display-hero-mobile": [ "Plus Jakarta Sans" ], "title-editorial-md": [ "Newsreader" ], "headline-xl": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "label-caps": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "title-editorial-lg": [ "Newsreader" ], "body-md": [ "Plus Jakarta Sans" ], "display-hero": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ] }, "fontSize": { "display-hero-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "600" } ], "title-editorial-md": [ "28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "label-md": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "label-caps": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "body-sm": [ "14px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "500" } ], "title-editorial-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-md": [ "16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" } ], "display-hero": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "600" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_8px_24px_-6px_rgba(15,23,42,0.04)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4"><div class="flex items-center gap-3"><img alt="Brand logo. - Primary color: #0d9488
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XGHaOWBAixs9D1ETpibytw_KQaMC3v8prXXdXsHyrL8ydFT-OyUqXZBkzpG0C3AuLRDKPw06BPgjUSZSNRU1YPmVyk7z-BiFy9lnw5e8sjJd0WCgvqzNkrZiZP01iheJ5xUnnFRIXtb5uZfCWYX3HjBrWaF2uNEKUYsygV-Yc6Ciqtgpc4hvCvHo3k6Y9uTYHr6ZNqx3Sbm_GNq3pczk-RveH58dyCXTnOB-aQMLHF-49-TSlktTTF4vA"/><a class="flex items-center gap-2.5" data-path="planner" href="#"><span class="font-headline-md text-headline-md tracking-tight text-on-surface font-semibold">PuhasPro</span><span class="hidden sm:inline-flex items-center px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider">Interactive Planner</span></a></div><nav class="hidden xl:flex items-center gap-1.5 p-1 rounded-full bg-surface-container-low" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-full"><a class="px-4 py-2 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="planner" href="#">Planner</a><a class="px-4 py-2 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="services" href="#">Services</a><a class="px-4 py-2 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="how-it-works" href="#">How it works</a><a class="px-4 py-2 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="special-projects" href="#">Special projects</a><a class="px-4 py-2 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" data-path="faq" href="#">FAQ</a></nav><div class="flex items-center gap-4"><div class="hidden md:flex items-center p-1 rounded-full bg-surface-container-low text-label-caps font-label-caps"><span class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface shadow-[0_1px_4px_rgba(0,0,0,0.04)] cursor-pointer font-semibold">EN</span><span class="px-2.5 py-1 text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">ET</span><span class="px-2.5 py-1 text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">RU</span></div><a class="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-[0_4px_14px_-3px_rgba(0,104,95,0.35)] hover:bg-primary-container hover:text-on-primary-container transition-all" href="#planner-calc">Start planning</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full text-on-surface">
+<!-- HERO SECTION -->
+<section class="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Column: Copy & Value Badges -->
+<div class="lg:col-span-6 space-y-8">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary-container text-on-secondary-container">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider" data-i18n="heroBadge">Nordic Facility &amp; Residence Care</span>
+</div>
+<div class="space-y-4">
+<h1 class="font-headline-xl text-headline-xl lg:font-display-hero lg:text-display-hero text-on-surface tracking-tight leading-tight">
+<span data-i18n="heroTitle">A cleaner home.</span><br/>
+<span class="font-title-editorial-lg text-title-editorial-lg italic text-primary font-normal" data-i18n="heroTitleSub">More time for life.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed" data-i18n="heroDescription">
+            Architectural cleaning and bespoke housekeeping crafted for discerning homeowners, modern offices, and seaside properties across greater Tallinn.
+          </p>
+</div>
+<!-- Trust Statements Grid (Honest, Verified) -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+<div class="p-4 rounded-xl bg-surface-container-low flex flex-col gap-1.5 shadow-sm">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="trust1Title">Verified Staff</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug" data-i18n="trust1Desc">Permanent Tallinn personnel, identity &amp; reference checked.</p>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low flex flex-col gap-1.5 shadow-sm">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">eco</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="trust2Title">Nordic Ecolabel</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug" data-i18n="trust2Desc">Hypoallergenic, fragrance-free solutions included by default.</p>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low flex flex-col gap-1.5 shadow-sm">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">support_agent</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="trust3Title">Direct Protocol</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug" data-i18n="trust3Desc">Personal coordinator review and pre-arrival scheduling.</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all" href="#planner-calc">
+<span data-i18n="ctaPlan">Configure Your Plan</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-all" href="#transformation">
+<span class="material-symbols-outlined text-[18px] text-primary">compare</span>
+<span data-i18n="ctaInspection">Inspect Craft</span>
+</a>
+</div>
+</div>
+<!-- Right Column: Interactive Room Hotspot Showcase -->
+<div class="lg:col-span-6 relative">
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img alt="Sunlit minimalist Scandinavian home interior in Tallinn with high ceilings, clean oak floors and immaculate decor" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VI1UjSluR6wLKd7S-INCQUHeSo9BJgBYPJJgXTBGxErxRzZXVcPo9fWRo279j67EUpIvOF4L7m0f2jF5Eyk9TZRbgYzHvbQGhVcBT3SvCrtqWBIIDJrT3UFtHOU8iET2WSDbXAxu74qI0QFbJrl-1Eo88Gyahhkej0K8T9O3f8vURGahGmVAq41i0CELVcUUvav5bZif9XPvsbZznN5r1XW0iUZVl9aq8rRRfYBaypyPwUV-hBTvkKuxuz"/>
+<!-- Hotspots Layer -->
+<div class="absolute inset-0 pointer-events-none">
+<!-- Kitchen Hotspot -->
+<div class="absolute top-[52%] left-[22%] pointer-events-auto group">
+<button aria-label="Kitchen standards" class="relative w-8 h-8 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform focus:outline-none">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="absolute inset-0 rounded-full bg-primary/20 animate-ping"></span>
+</button>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 w-48 p-3 rounded-xl bg-surface-container-lowest shadow-xl opacity-0 translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all pointer-events-none z-20">
+<p class="font-label-caps text-label-caps uppercase text-primary font-bold">Kitchen Sanctuary</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight mt-1">Degreasing, induction polish, interior cabinet wipe-down.</p>
+</div>
+</div>
+<!-- Windows Hotspot -->
+<div class="absolute top-[28%] right-[32%] pointer-events-auto group">
+<button aria-label="Panoramic windows" class="relative w-8 h-8 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform focus:outline-none">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="absolute inset-0 rounded-full bg-primary/20 animate-ping"></span>
+</button>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 w-48 p-3 rounded-xl bg-surface-container-lowest shadow-xl opacity-0 translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all pointer-events-none z-20">
+<p class="font-label-caps text-label-caps uppercase text-primary font-bold">Glazing &amp; Frames</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight mt-1">Streak-free pure water treatment for Baltic weather frames.</p>
+</div>
+</div>
+<!-- Living / Floor Hotspot -->
+<div class="absolute bottom-[20%] right-[22%] pointer-events-auto group">
+<button aria-label="Oak parquet care" class="relative w-8 h-8 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform focus:outline-none">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="absolute inset-0 rounded-full bg-primary/20 animate-ping"></span>
+</button>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 w-48 p-3 rounded-xl bg-surface-container-lowest shadow-xl opacity-0 translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all pointer-events-none z-20">
+<p class="font-label-caps text-label-caps uppercase text-primary font-bold">Hardwood Care</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight mt-1">pH-neutral Nordic soap wash preserving matte oiled wood.</p>
+</div>
+</div>
+</div>
+<!-- Bottom floating badge -->
+<div class="absolute bottom-4 left-4 right-4 p-3 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between shadow-md">
+<div class="flex items-center gap-3">
+<img alt="PuhasPro emblem" class="w-8 h-8 object-contain rounded-md" src="https://lh3.googleusercontent.com/aida/AEtjO1XGHaOWBAixs9D1ETpibytw_KQaMC3v8prXXdXsHyrL8ydFT-OyUqXZBkzpG0C3AuLRDKPw06BPgjUSZSNRU1YPmVyk7z-BiFy9lnw5e8sjJd0WCgvqzNkrZiZP01iheJ5xUnnFRIXtb5uZfCWYX3HjBrWaF2uNEKUYsygV-Yc6Ciqtgpc4hvCvHo3k6Y9uTYHr6ZNqx3Sbm_GNq3pczk-RveH58dyCXTnOB-aQMLHF-49-TSlktTTF4vA"/>
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface block leading-none">PuhasPro Standard</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="hotspotHint">Hover markers to preview room protocols</span>
+</div>
+</div>
+<span class="px-3 py-1 rounded-full bg-primary/10 text-primary font-label-caps text-label-caps uppercase font-semibold">Tallinn &amp; Viimsi</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- EDITORIAL BEFORE & AFTER TRANSFORMATION SECTION -->
+<section class="w-full bg-surface-container-low py-20 lg:py-28 my-10" id="transformation">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="max-w-2xl mx-auto text-center space-y-4 mb-12">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest font-semibold" data-i18n="transformEyebrow">Craft &amp; Transformation</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight" data-i18n="transformTitle">Meticulous detail. Visible transformation.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant" data-i18n="transformSub">Slide to inspect our post-renovation and deep cleaning standards across Tallinn residences.</p>
+</div>
+<!-- Before / After Interactive Component -->
+<div class="relative max-w-4xl mx-auto">
+<div class="relative w-full aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl select-none bg-surface-container cursor-ew-resize" id="comparison-slider">
+<!-- After Image (Base) -->
+<img alt="Pristine kitchen with marble island and polished clean cabinets" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj91BtoW5oGynlcCpOWL4AIJpRKf93BiqQI26fdp5DxqREf_5DjAKvycYZ11hTgAdKrOOb32NnLvmtCPUOgTp8H_TInDo4QZEZiGUK5ezdIvuo0vH5zeGCouD0oEfj7O-pUxQKccwwo5SMyY01tzgN1mGQlgYWUtAVWWdJts8lI8hUvNn3bWTjgysCQa6CTAaxiKZDO1i4HBNZAbZ3hfjuBB_6D2bbN0oRIYbVpUJ3zZqnfNozEA0isA"/>
+<div class="absolute bottom-5 right-5 z-10 px-3.5 py-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-md text-on-surface font-label-caps text-label-caps uppercase font-semibold">
+<span class="text-primary font-bold">✓</span> <span data-i18n="badgeAfter">After PuhasPro Standard</span>
+</div>
+<!-- Before Image (Clipped Overlay) -->
+<div class="absolute inset-0 w-1/2 overflow-hidden border-r-0" id="before-clip-container">
+<img alt="Kitchen during renovation with fine plaster dust on countertops and tiles" class="absolute inset-0 w-full h-full object-cover max-w-none" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpGQ7_5xPN9Eex1iendZdwIxRfhNs1xBRUDgjzgh6cN1pWI_sL5RUr4u2PNH0J2lyDhckgVw8yF9dQN1w5kNWLAd8yuGAMu_kSrnRHnDCSd05WKnjtOW4O6SJojgaolLhrmAYTz58np_kQvTKGQ6saWywY_yMG-jOfhzVuB7r0x55wzwk733xgVQhjQ6tBECyUjNeYF0uKD1UjkKDLqSOfu2CccVgz9wyBNEv1m1fwwvffh7amtpSH3g" style="width: 100%; height: 100%; object-fit: cover;"/>
+<div class="absolute bottom-5 left-5 px-3.5 py-1.5 rounded-full bg-inverse-surface/85 backdrop-blur-md shadow-md text-inverse-on-surface font-label-caps text-label-caps uppercase font-semibold">
+<span data-i18n="badgeBefore">Before Handover (Post-Works)</span>
+</div>
+</div>
+<!-- Divider Handle -->
+<div class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-1 bg-surface-container-lowest pointer-events-none flex items-center justify-center shadow-[0_0_12px_rgba(0,0,0,0.3)]" id="slider-handle">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest text-primary shadow-xl flex items-center justify-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Slider Quick Toggles -->
+<div class="flex items-center justify-center gap-3 mt-6">
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-colors" data-i18n="btnShowBefore" id="toggle-before">Inspect Before</button>
+<button class="px-5 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm transition-colors" data-i18n="btnShowSplit" id="toggle-split">Split Lens (50%)</button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-colors" data-i18n="btnShowAfter" id="toggle-after">Inspect After</button>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVICE TILES: WHAT WOULD YOU LIKE CLEANED? -->
+<section class="w-full max-w-7xl mx-auto px-6 lg:px-12 py-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest font-semibold" data-i18n="catalogEyebrow">Core Residential Services</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mt-1" data-i18n="servicesTitle">What would you like cleaned?</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md" data-i18n="servicesSub">Choose a specialized baseline protocol. Custom specifications can be refined in the planner below.</p>
+</div>
+<!-- 4 Core Service Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1: Regular Maintenance -->
+<div class="group p-5 rounded-2xl bg-surface-container-lowest shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden mb-5 bg-surface-container">
+<img alt="Nordic modern kitchen with clean oak finishes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj91BtoW5oGynlcCpOWL4AIJpRKf93BiqQI26fdp5DxqREf_5DjAKvycYZ11hTgAdKrOOb32NnLvmtCPUOgTp8H_TInDo4QZEZiGUK5ezdIvuo0vH5zeGCouD0oEfj7O-pUxQKccwwo5SMyY01tzgN1mGQlgYWUtAVWWdJts8lI8hUvNn3bWTjgysCQa6CTAaxiKZDO1i4HBNZAbZ3hfjuBB_6D2bbN0oRIYbVpUJ3zZqnfNozEA0isA"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-caps text-label-caps uppercase font-bold" data-i18n="badgeRecurring">Weekly / Bi-Weekly</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2" data-i18n="srvRegularTitle">Regular Care</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4" data-i18n="srvRegularDesc">Systematic home upkeep, vacuuming, dusting, wet mop disinfection, and sanitary polish.</p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvRegularFeat1">Same trusted specialist</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvRegularFeat2">Nordic eco-supplies included</span></li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors text-center" data-i18n="btnSelectPlan" onclick="selectServiceInPlanner('regular')">
+          Select &amp; Estimate
+        </button>
+</div>
+<!-- Card 2: Deep Cleaning -->
+<div class="group p-5 rounded-2xl bg-surface-container-lowest shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden mb-5 bg-surface-container">
+<img alt="Spotless luxury modern bathroom with clean oval tub and walk-in shower" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGKhyp1gx-NophYyfVazSG1JFk1eSFPXCtVvOn90dTssuO6isj-DllJHZgK-DZQMal6uIQKnI5zxZ3yUFUZjbhCkdU_dNL_MQTkJRmExxsZe0COwPoVakiX7MuX8VkDdkQUmBKRUqlQr9aj19UKM-cnxBdJ0X4ICEU-4XRZnA1yw_RLBFyoMIAXBhuEUW1SEXmH03BuR3g_DaLDjxwECJuwGidAXwn0vRZTpJpZTQY0d-YDOresrq_-w"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-caps text-label-caps uppercase font-bold" data-i18n="badgeDeep">Comprehensive</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2" data-i18n="srvDeepTitle">Deep Sanity Clean</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4" data-i18n="srvDeepDesc">Intensive descaling of wet areas, grout restoration, appliance degreasing, and micro-dust clearance.</p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvDeepFeat1">Full scale &amp; limescale removal</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvDeepFeat2">Oven &amp; extractor hood treat</span></li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors text-center" data-i18n="btnSelectPlan" onclick="selectServiceInPlanner('deep')">
+          Select &amp; Estimate
+        </button>
+</div>
+<!-- Card 3: Handover & Move Out -->
+<div class="group p-5 rounded-2xl bg-surface-container-lowest shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden mb-5 bg-surface-container">
+<img alt="Freshly cleaned Scandinavian apartment ready for keys handover" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmm6Tlw-eOjelCKYzM0qY6XjxcjCtaVTH0ccnkZRpVl-LB6gyEWpDE6Q15bU9VXF-of-Gx1iNc0g21jwR9L-sRImLnUFCe37VLNwL625397fD0c6a3OlAM_kRW6DMV5SqWzUqOaQ7b5-msefjzpeSUmAlva98ljJnnX80F9PKsnMyL0dgo6aFYCmZU1YehJPxm-DWfOZUoNsnnE8nc4zeRahA5ubIVzhl5Gzjxzg-YfkO9iyJJwmfaYw"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-caps text-label-caps uppercase font-bold" data-i18n="badgeHandover">100% Handover Bond</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2" data-i18n="srvMoveTitle">Move-Out / In</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4" data-i18n="srvMoveDesc">Guaranteed landlord &amp; new owner handover checklist. Inside all cupboards, skirting, and fixtures.</p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvMoveFeat1">Formal handover inspection checklist</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvMoveFeat2">Interior fixtures cleaned</span></li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors text-center" data-i18n="btnSelectPlan" onclick="selectServiceInPlanner('move')">
+          Select &amp; Estimate
+        </button>
+</div>
+<!-- Card 4: Panoramic Windows & Textiles -->
+<div class="group p-5 rounded-2xl bg-surface-container-lowest shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden mb-5 bg-surface-container">
+<img alt="Close-up of clean panoramic windows overlooking Tallinn and pristine linen textures" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClMadej4Kv1MqbJgzwdgTFj7aWSTn-Sn6BXa_ObujSqqH21xC6tVMcknLXJHFaYta0jeOanGMAI1U_qATyauKdMmk-hhoZ9C7R9I5m1AHMng9k_2KDjRVQr9HxSrjKuDpNQITVPWhKX_qB965eNLspjQBfIP9WmmMqGND-MsNSawkdRGuIksg6t-zMLsQFmoQ1uN8gN73LSjgOFSVbUdUIS5KdeelIMNcSyGm-03aKwan5e9au6RftLA"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-caps text-label-caps uppercase font-bold" data-i18n="badgeWindows">Specialized Equipment</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2" data-i18n="srvWinTitle">Glazing &amp; Fabrics</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4" data-i18n="srvWinDesc">Balcony glass, tall glazing frames, steam extraction for wool sofas and natural fiber carpets.</p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvWinFeat1">Reverse osmosis pure water</span></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-primary">check_circle</span> <span data-i18n="srvWinFeat2">Kärcher deep fiber extraction</span></li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-full bg-surface-container-high text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-colors text-center" data-i18n="btnSelectPlan" onclick="selectServiceInPlanner('windows')">
+          Select &amp; Estimate
+        </button>
+</div>
+</div>
+</section>
+<!-- COMPLEX PROJECTS: COMMERCIAL, YACHTS & SHOWROOMS -->
+<section class="w-full bg-surface-container-low py-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest font-semibold" data-i18n="complexEyebrow">Commercial &amp; High-End Special Care</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mt-1" data-i18n="complexTitle">Need a more complex job?</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md" data-i18n="complexSub">Specialized crews with dedicated machinery for corporate flagships, private vessels, and sensitive finishes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Project 1: Noblessner Tech Offices -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="w-full aspect-video rounded-xl overflow-hidden bg-surface-container">
+<img alt="Minimalist tech company office in Noblessner Tallinn with clean glass and wood desks" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZprMCp8sbWMure2m65GVd2867hlZKUAxrc8bCQ_uyaGIUHKPIALTzWWUt_4sP0HCopxBd-GP59cMQSkm8FlI8hpfCMmneg3_c23vrpWM3tvPoMffzgQ_VLCYElV6nYJe1URnyQs-DU-95uhzs78svxbEcAwenv9uN551_HEgfGTxn07GlyX0ihvlFjWcqciErmQshgCAaaBxG0fbHNqQgi2LpeLtox7OixFK3xvp7KelT2XCSbcHaUw"/>
+</div>
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps font-semibold">Noblessner &amp; Rotermanni</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">B2B Monthly</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="compOfficeTitle">Office &amp; Studio Care</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="compOfficeDesc">Scheduled quiet-hour visits, sanitary restocking, keyboard/monitor safe sanitization, and meeting room reset.</p>
+</div>
+<button class="inline-flex items-center gap-2 text-primary font-label-md text-label-md hover:translate-x-1 transition-transform" onclick="openCustomQuoteModal('Office &amp; Studio Care')">
+<span data-i18n="ctaRequestB2B">Request Corporate Quote</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- Project 2: Yacht & Marine Pirita -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="w-full aspect-video rounded-xl overflow-hidden bg-surface-container">
+<img alt="Pristine teak wood yacht interior in Pirita marina" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSw4gMc7YDwr-EvE-57tk_umfeE_GBoe5Rihci_pyTelJnGkVMJFfl-C6XUMRzoJffovRDEBn-DcOb8xmqO_Xb1EexUCVCk26k1GDHEQh40GyuApcVI1-64v8BYsOfGO0Jo9v2uc2Yi6eIaYo5UxY9Q2PLi_vEtiPXhuZl45XClK1sjaSDHOMI_GgKOzD9oRsv3w3F1VuhO8OuraBX8oXydcvoQZgO1hPuzsIKYovMr9rnLRpoB2GYxw"/>
+</div>
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps font-semibold">Pirita Marina &amp; Haven</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Seasonal / On-Demand</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="compYachtTitle">Yachts &amp; Marine Salons</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="compYachtDesc">Teak condition treatments, salt residue clearance, leather conditioning, and bilge freshness maintenance.</p>
+</div>
+<button class="inline-flex items-center gap-2 text-primary font-label-md text-label-md hover:translate-x-1 transition-transform" onclick="openCustomQuoteModal('Yacht &amp; Marine Care')">
+<span data-i18n="ctaRequestMarine">Request Marine Plan</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- Project 3: High-end Showrooms & Retail -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="w-full aspect-video rounded-xl overflow-hidden bg-surface-container">
+<img alt="Pristine high-end automotive showroom in Tallinn with polished reflective epoxy flooring" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzhe7ez5nd6kSKKRk24EgiLtY1dJQqAgnXU7zp1plegEdF_L36Tcrp-nAi6HmDZAV9yv54ukpjKzw9meWusJLDS-C-4138z-eC7c8EfC-vmkOjQsmOugf2Y1sb3WZEqjXDydrZQu1epgQ9RvlhU9bcudYq_QCebhcwCyabU-5TAh8CReU-108Jv6m7MDdSl_qRFoOh1HZL8jZwA27G8nh6W7tULi9A-JcJU98yFEY31sni6IdfOHPFyg"/>
+</div>
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps font-semibold">Tallinn Flagships</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Daily Opening Clean</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="compShowTitle">Showrooms &amp; Galleries</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="compShowDesc">Mirror-finish epoxy floor scrubbing, zero-lint glass showcase polish, and spot illumination dusting.</p>
+</div>
+<button class="inline-flex items-center gap-2 text-primary font-label-md text-label-md hover:translate-x-1 transition-transform" onclick="openCustomQuoteModal('Showrooms &amp; Galleries')">
+<span data-i18n="ctaRequestShowroom">Request Showcase Plan</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE PLANNER STUDIO WITH PROGRESSIVE DISCLOSURE -->
+<section class="w-full max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-28" id="planner-calc">
+<div class="max-w-3xl mb-12">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest font-semibold" data-i18n="plannerEyebrow">Interactive Studio</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mt-1" data-i18n="plannerTitle">Configure your bespoke plan.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2" data-i18n="plannerSub">Itemized pricing transparently calculated based on square meters, room counts, and custom requirements in Tallinn.</p>
+</div>
+<!-- Stepper Indicator -->
+<div class="mb-10 p-4 rounded-2xl bg-surface-container-low max-w-4xl">
+<div class="flex items-center justify-between relative">
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center font-bold" id="step-pill-1">1</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface" data-i18n="step1Label">Space &amp; Frequency</span>
+</div>
+<div class="hidden sm:block flex-1 h-[2px] mx-4 bg-outline-variant/30"></div>
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-surface-container-highest text-on-surface-variant font-label-md text-label-md flex items-center justify-center font-bold" id="step-pill-2">2</span>
+<span class="font-label-md text-label-md text-on-surface-variant" data-i18n="step2Label">Add-on Details</span>
+</div>
+<div class="hidden sm:block flex-1 h-[2px] mx-4 bg-outline-variant/30"></div>
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded-full bg-surface-container-highest text-on-surface-variant font-label-md text-label-md flex items-center justify-center font-bold" id="step-pill-3">3</span>
+<span class="font-label-md text-label-md text-on-surface-variant" data-i18n="step3Label">Schedule &amp; Access</span>
+</div>
+</div>
+</div>
+<!-- Main Planner Workspace (Split 2-Column Desktop) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+<!-- Steps Content Area (Left 8 Cols) -->
+<div class="lg:col-span-8 bg-surface-container-lowest p-6 sm:p-8 rounded-2xl shadow-md space-y-8">
+<!-- STEP 1: Space & Frequency -->
+<div class="space-y-8" id="planner-step-1">
+<!-- Cleaning Type Radios -->
+<div>
+<label class="block font-headline-sm text-headline-sm text-on-surface mb-3" data-i18n="lblServiceType">Service Scope</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<button class="p-4 rounded-xl text-left border-2 border-transparent bg-secondary-container/50 hover:bg-secondary-container transition-all" id="btn-type-regular" onclick="setServiceType('regular')" type="button">
+<span class="font-headline-sm text-headline-sm block text-on-surface" data-i18n="srvRegularTitle">Regular Care</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="optFrom45">Maintenance upkeep</span>
+</button>
+<button class="p-4 rounded-xl text-left border-2 border-transparent bg-surface-container-low hover:bg-secondary-container/30 transition-all" id="btn-type-deep" onclick="setServiceType('deep')" type="button">
+<span class="font-headline-sm text-headline-sm block text-on-surface" data-i18n="srvDeepTitle">Deep Sanity</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="optDeepSub">Full-depth descaling</span>
+</button>
+<button class="p-4 rounded-xl text-left border-2 border-transparent bg-surface-container-low hover:bg-secondary-container/30 transition-all" id="btn-type-move" onclick="setServiceType('move')" type="button">
+<span class="font-headline-sm text-headline-sm block text-on-surface" data-i18n="srvMoveTitle">Move-Out / In</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="optMoveSub">Bond inspection ready</span>
+</button>
+</div>
+</div>
+<!-- Space Area Slider -->
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<label class="font-headline-sm text-headline-sm text-on-surface" data-i18n="lblArea">Floor Area</label>
+<span class="font-headline-md text-headline-md text-primary font-bold"><span id="val-area">65</span> m²</span>
+</div>
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" id="input-area" max="280" min="30" oninput="updateCalculations()" step="5" type="range" value="65"/>
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant">
+<span>Studio (30 m²)</span>
+<span>Townhouse (140 m²)</span>
+<span>Villa (280+ m²)</span>
+</div>
+</div>
+<!-- Room Counters -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-2">
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface block" data-i18n="lblBathrooms">Bathrooms</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="lblBathSub">Incl. shower &amp; sauna</span>
+</div>
+<div class="flex items-center gap-3">
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm hover:bg-surface-container-highest font-bold text-lg" onclick="adjustCount('bath', -1)" type="button">-</button>
+<span class="font-headline-md text-headline-md w-6 text-center font-semibold" id="val-bath">1</span>
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm hover:bg-surface-container-highest font-bold text-lg" onclick="adjustCount('bath', 1)" type="button">+</button>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface block" data-i18n="lblRooms">Bedrooms / Living</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="lblRoomsSub">Primary living areas</span>
+</div>
+<div class="flex items-center gap-3">
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm hover:bg-surface-container-highest font-bold text-lg" onclick="adjustCount('rooms', -1)" type="button">-</button>
+<span class="font-headline-md text-headline-md w-6 text-center font-semibold" id="val-rooms">2</span>
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-sm hover:bg-surface-container-highest font-bold text-lg" onclick="adjustCount('rooms', 1)" type="button">+</button>
+</div>
+</div>
+</div>
+<!-- Frequency Radio Pills -->
+<div>
+<label class="block font-headline-sm text-headline-sm text-on-surface mb-3" data-i18n="lblFrequency">Frequency Benefit</label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+<button class="p-3 rounded-xl bg-surface-container-low text-center hover:bg-secondary-container/40 transition-colors" id="btn-freq-weekly" onclick="setFrequency('weekly')" type="button">
+<span class="font-label-md text-label-md font-bold block" data-i18n="freqWeekly">Weekly</span>
+<span class="font-label-caps text-label-caps text-primary font-semibold">-20% Save</span>
+</button>
+<button class="p-3 rounded-xl bg-secondary-container text-on-secondary-container text-center transition-colors" id="btn-freq-biweekly" onclick="setFrequency('biweekly')" type="button">
+<span class="font-label-md text-label-md font-bold block" data-i18n="freqBiweekly">Bi-Weekly</span>
+<span class="font-label-caps text-label-caps text-primary font-semibold">-15% Save</span>
+</button>
+<button class="p-3 rounded-xl bg-surface-container-low text-center hover:bg-secondary-container/40 transition-colors" id="btn-freq-monthly" onclick="setFrequency('monthly')" type="button">
+<span class="font-label-md text-label-md font-bold block" data-i18n="freqMonthly">Monthly</span>
+<span class="font-label-caps text-label-caps text-primary font-semibold">-10% Save</span>
+</button>
+<button class="p-3 rounded-xl bg-surface-container-low text-center hover:bg-secondary-container/40 transition-colors" id="btn-freq-once" onclick="setFrequency('once')" type="button">
+<span class="font-label-md text-label-md font-bold block" data-i18n="freqOnce">Single Visit</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Standard</span>
+</button>
+</div>
+</div>
+<!-- Step 1 Controls -->
+<div class="pt-4 flex justify-end">
+<button class="px-8 py-3 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all flex items-center gap-2" onclick="goToStep(2)" type="button">
+<span data-i18n="btnNextAddons">Next: Add-on Details</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- STEP 2: Add-on Details (Initially Hidden) -->
+<div class="space-y-8 hidden" id="planner-step-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="lblAddonsHeader">Bespoke Treatments &amp; Extras</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" data-i18n="lblAddonsSub">Select optional intensive modules to be executed alongside your core standard.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<label class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3.5 cursor-pointer hover:bg-surface-container transition-colors">
+<input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer" id="addon-oven" onchange="updateCalculations()" type="checkbox"/>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block" data-i18n="addOvenTitle">Oven Interior Steam Clean</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="addOvenDesc">Removal of baked carbon and fan degreasing.</span>
+<span class="font-label-caps text-label-caps text-primary block mt-1">+€28</span>
+</div>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3.5 cursor-pointer hover:bg-surface-container transition-colors">
+<input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer" id="addon-fridge" onchange="updateCalculations()" type="checkbox"/>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block" data-i18n="addFridgeTitle">Fridge &amp; Freezer Defrost Wipe</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="addFridgeDesc">Antibacterial wash of shelves, seals and crispers.</span>
+<span class="font-label-caps text-label-caps text-primary block mt-1">+€24</span>
+</div>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3.5 cursor-pointer hover:bg-surface-container transition-colors">
+<input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer" id="addon-windows" onchange="updateCalculations()" type="checkbox"/>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block" data-i18n="addWinTitle">Interior &amp; Exterior Window Panes</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="addWinDesc">Up to 8 standard residential glass panels.</span>
+<span class="font-label-caps text-label-caps text-primary block mt-1">+€42</span>
+</div>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3.5 cursor-pointer hover:bg-surface-container transition-colors">
+<input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer" id="addon-balcony" onchange="updateCalculations()" type="checkbox"/>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block" data-i18n="addBalconyTitle">Glazed Balcony &amp; Terrace Deck</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="addBalconyDesc">Rail wash, floor scrub, and sliding track dust sweep.</span>
+<span class="font-label-caps text-label-caps text-primary block mt-1">+€34</span>
+</div>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3.5 cursor-pointer hover:bg-surface-container transition-colors">
+<input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer" id="addon-sauna" onchange="updateCalculations()" type="checkbox"/>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block" data-i18n="addSaunaTitle">Sauna Cedar Wood Treatment</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="addSaunaDesc">Organic wood soap bench clean and glass door descale.</span>
+<span class="font-label-caps text-label-caps text-primary block mt-1">+€29</span>
+</div>
+</label>
+<label class="p-4 rounded-xl bg-surface-container-low flex items-start gap-3.5 cursor-pointer hover:bg-surface-container transition-colors">
+<input class="mt-1 w-5 h-5 rounded accent-primary cursor-pointer" id="addon-linen" onchange="updateCalculations()" type="checkbox"/>
+<div>
+<span class="font-label-md text-label-md font-semibold text-on-surface block" data-i18n="addLinenTitle">Hotel Bed Linen Turn-Down</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="addLinenDesc">Crisp bed remake with fresh customer-provided linens.</span>
+<span class="font-label-caps text-label-caps text-primary block mt-1">+€18</span>
+</div>
+</label>
+</div>
+<!-- Step 2 Controls -->
+<div class="pt-4 flex justify-between items-center">
+<button class="px-6 py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-all flex items-center gap-1.5" onclick="goToStep(1)" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+<span data-i18n="btnBack">Back</span>
+</button>
+<button class="px-8 py-3 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all flex items-center gap-2" onclick="goToStep(3)" type="button">
+<span data-i18n="btnNextSchedule">Next: Schedule &amp; Access</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- STEP 3: Access & Schedule (Initially Hidden) -->
+<div class="space-y-8 hidden" id="planner-step-3">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" data-i18n="lblAccessHeader">Schedule &amp; Arrival Protocol</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" data-i18n="lblAccessSub">Let us know how your specialist will access the premises.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2" data-i18n="lblDate">Preferred Starting Date</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" id="input-date" type="date" value="2025-04-14"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2" data-i18n="lblTime">Preferred Arrival Window</label>
+<select class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" id="input-time">
+<option value="morning">Morning (08:30 - 11:30)</option>
+<option selected="" value="afternoon">Midday (12:00 - 15:00)</option>
+<option value="evening">Late Afternoon (15:30 - 18:30)</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-2" data-i18n="lblAccessType">Key Access Mode</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<label class="p-3.5 rounded-xl bg-surface-container-low flex items-center gap-3 cursor-pointer">
+<input checked="" class="accent-primary" name="access-mode" type="radio" value="home"/>
+<span class="font-body-sm text-body-sm text-on-surface" data-i18n="optHome">I will be home</span>
+</label>
+<label class="p-3.5 rounded-xl bg-surface-container-low flex items-center gap-3 cursor-pointer">
+<input class="accent-primary" name="access-mode" type="radio" value="lockbox"/>
+<span class="font-body-sm text-body-sm text-on-surface" data-i18n="optLockbox">Key lockbox code</span>
+</label>
+<label class="p-3.5 rounded-xl bg-surface-container-low flex items-center gap-3 cursor-pointer">
+<input class="accent-primary" name="access-mode" type="radio" value="concierge"/>
+<span class="font-body-sm text-body-sm text-on-surface" data-i18n="optConcierge">Front desk reception</span>
+</label>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-secondary-container/40 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">info</span>
+<p class="font-body-sm text-body-sm text-on-secondary-container leading-relaxed" data-i18n="reassuranceNote">
+              No payment is taken now. We inspect your details personally and contact you within 2 hours to confirm staff availability and schedule your slot.
+            </p>
+</div>
+<!-- Step 3 Controls -->
+<div class="pt-4 flex justify-between items-center">
+<button class="px-6 py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-all flex items-center gap-1.5" onclick="goToStep(2)" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+<span data-i18n="btnBack">Back</span>
+</button>
+<button class="px-8 py-3 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all flex items-center gap-2" onclick="openConfirmationModal()" type="button">
+<span data-i18n="btnReviewPlan">Review &amp; Finalize Plan</span>
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Live Itemized Sticky Summary Dock (Right 4 Cols Desktop) -->
+<div class="lg:col-span-4 sticky top-28 space-y-6">
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-lg space-y-6">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface" data-i18n="summaryTitle">Live Plan Summary</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-caps text-label-caps" id="summary-district">Tallinn Area</span>
+</div>
+<!-- Itemized Rows -->
+<div class="space-y-3 font-body-sm text-body-sm">
+<div class="flex justify-between text-on-surface-variant">
+<span id="sum-type-title">Regular Maintenance</span>
+<span class="text-on-surface font-semibold" id="sum-base-price">€68</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Space Dimensions</span>
+<span class="text-on-surface" id="sum-area-val">65 m² (2 bed, 1 bath)</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Frequency Schedule</span>
+<span class="text-on-surface" id="sum-freq-val">Bi-Weekly (-15%)</span>
+</div>
+<div class="space-y-1 pt-1 text-on-surface-variant" id="sum-addons-container">
+<!-- Dynamically populated addons -->
+</div>
+</div>
+<div class="h-[1px] bg-surface-container-high w-full"></div>
+<!-- Calculated Total -->
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block tracking-wider" data-i18n="lblEstTotal">Estimated Visit Price</span>
+<span class="font-body-sm text-body-sm text-primary font-medium" data-i18n="taxIncluded">VAT &amp; Eco-supplies included</span>
+</div>
+<div class="text-right">
+<span class="font-headline-xl text-headline-xl text-primary font-bold" id="sum-total-price">€68</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant block" id="sum-freq-sub">per cleaning</span>
+</div>
+</div>
+<button class="w-full py-3.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all text-center flex items-center justify-center gap-2" onclick="openConfirmationModal()" type="button">
+<span data-i18n="btnContinueConfirm">Continue to Confirmation</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<p class="font-label-caps text-label-caps text-center text-on-surface-variant" data-i18n="noPaymentReassurance">
+            Free cancellation up to 36h before appointment.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- MODAL / SLIDE-OVER REVIEW DRAWER -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm hidden items-center justify-center p-4" id="confirm-modal">
+<div class="bg-surface-container-lowest max-w-lg w-full rounded-2xl shadow-2xl p-6 sm:p-8 space-y-6 relative max-h-[90vh] overflow-y-auto">
+<button class="absolute top-5 right-5 text-on-surface-variant hover:text-on-surface" onclick="closeConfirmationModal()">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+<div class="space-y-1">
+<span class="font-label-caps text-label-caps uppercase text-primary font-bold" data-i18n="modalEyebrow">Direct Booking Concierge</span>
+<h3 class="font-headline-md text-headline-md text-on-surface" data-i18n="modalTitle">Confirm Your Cleaning Schedule</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" data-i18n="modalSub">Our team will verify specialist availability for your exact Tallinn address.</p>
+</div>
+<!-- Snapshot Box -->
+<div class="p-4 rounded-xl bg-surface-container-low space-y-2 font-body-sm text-body-sm">
+<div class="flex justify-between font-semibold text-on-surface">
+<span id="modal-service-name">Regular Maintenance Plan</span>
+<span id="modal-service-price">€68 / visit</span>
+</div>
+<p class="text-on-surface-variant" id="modal-specs">65 m² · 2 rooms · 1 bath · Bi-weekly frequency</p>
+</div>
+<!-- Contact Inputs -->
+<form class="space-y-4" id="booking-form" onsubmit="handleBookingSubmit(event)">
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1.5" data-i18n="modalFieldName">Full Name</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" placeholder="e.g. Rasmus Tamm" required="" type="text"/>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1.5" data-i18n="modalFieldPhone">Phone Number</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" placeholder="+372 5..." required="" type="tel"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1.5" data-i18n="modalFieldDistrict">Tallinn District</label>
+<select class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm">
+<option>Kesklinn / Vanalinn</option>
+<option>Kalamaja / Noblessner</option>
+<option>Kadriorg</option>
+<option>Pirita / Viimsi</option>
+<option>Kristiine / Nõmme</option>
+<option>Haabersti / Kakumäe</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1.5" data-i18n="modalFieldEmail">Email Address</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" placeholder="rasmus@domain.ee" required="" type="email"/>
+</div>
+<div class="p-3.5 rounded-xl bg-secondary-container/40 flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5">verified</span>
+<p class="font-body-sm text-body-sm text-on-secondary-container" data-i18n="modalGuarantee">
+            No upfront payment required. You will receive an SMS and email verification within 2 hours.
+          </p>
+</div>
+<div class="pt-2">
+<button class="w-full py-3.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all flex items-center justify-center gap-2" type="submit">
+<span data-i18n="modalBtnSubmit">Submit Reservation Request</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</form>
+<!-- Success Confirmation State (Hidden until submit) -->
+<div class="hidden text-center py-6 space-y-4" id="booking-success">
+<div class="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto">
+<span class="material-symbols-outlined text-[36px]">task_alt</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface" data-i18n="successTitle">Request Received</h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mx-auto" data-i18n="successSub">
+          Thank you. Our Tallinn coordination team is reviewing your schedule and will contact you within 2 hours.
+        </p>
+<button class="px-8 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md mt-2" onclick="closeConfirmationModal()">
+          Return to Planner
+        </button>
+</div>
+</div>
+</div>
+<!-- B2B / SPECIAL PROJECT QUOTE MODAL -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm hidden items-center justify-center p-4" id="b2b-modal">
+<div class="bg-surface-container-lowest max-w-lg w-full rounded-2xl shadow-2xl p-6 sm:p-8 space-y-6 relative">
+<button class="absolute top-5 right-5 text-on-surface-variant hover:text-on-surface" onclick="closeB2bModal()">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-primary font-bold" data-i18n="b2bEyebrow">Commercial &amp; Special Clean</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-1" id="b2b-modal-title">Special Project Plan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" data-i18n="b2bSub">Bespoke equipment assignment, non-disclosure compliance, and dedicated team scheduling.</p>
+</div>
+<form class="space-y-4" onsubmit="handleB2bSubmit(event)">
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1">Company / Vessel / Facility Name</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" placeholder="e.g. Bolt HQ Noblessner or Baltic 45ft Yacht" required="" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1">Contact Person</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" placeholder="Name" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1">Phone</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" placeholder="+372" required="" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md font-semibold text-on-surface mb-1">Project Notes &amp; Square Footage</label>
+<textarea class="w-full p-4 rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary font-body-sm" placeholder="Approximate floor area, desired timeline, security protocols..." rows="3"></textarea>
+</div>
+<button class="w-full py-3.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container transition-all" type="submit">
+          Request Project Consultation
+        </button>
+</form>
+</div>
+</div>
+</div>
+<!-- SCRIPT: Complete Trilingual Localization, Before/After Slider, Step UX & Cost Computation -->
+<script>
+  // 1. Trilingual Translations Dictionary
+  const translations = {
+    EN: {
+      heroBadge: "Nordic Facility & Residence Care",
+      heroTitle: "A cleaner home.",
+      heroTitleSub: "More time for life.",
+      heroDescription: "Architectural cleaning and bespoke housekeeping crafted for discerning homeowners, modern offices, and seaside properties across greater Tallinn.",
+      trust1Title: "Verified Staff",
+      trust1Desc: "Permanent Tallinn personnel, identity & reference checked.",
+      trust2Title: "Nordic Ecolabel",
+      trust2Desc: "Hypoallergenic, fragrance-free solutions included by default.",
+      trust3Title: "Direct Protocol",
+      trust3Desc: "Personal coordinator review and pre-arrival scheduling.",
+      ctaPlan: "Configure Your Plan",
+      ctaInspection: "Inspect Craft",
+      hotspotHint: "Hover markers to preview room protocols",
+      transformEyebrow: "Craft & Transformation",
+      transformTitle: "Meticulous detail. Visible transformation.",
+      transformSub: "Slide to inspect our post-renovation and deep cleaning standards across Tallinn residences.",
+      badgeBefore: "Before Handover (Post-Works)",
+      badgeAfter: "After PuhasPro Standard",
+      btnShowBefore: "Inspect Before",
+      btnShowSplit: "Split Lens (50%)",
+      btnShowAfter: "Inspect After",
+      catalogEyebrow: "Core Residential Services",
+      servicesTitle: "What would you like cleaned?",
+      servicesSub: "Choose a specialized baseline protocol. Custom specifications can be refined in the planner below.",
+      badgeRecurring: "Weekly / Bi-Weekly",
+      badgeDeep: "Comprehensive",
+      badgeHandover: "100% Handover Bond",
+      badgeWindows: "Specialized Equipment",
+      srvRegularTitle: "Regular Care",
+      srvRegularDesc: "Systematic home upkeep, vacuuming, dusting, wet mop disinfection, and sanitary polish.",
+      srvRegularFeat1: "Same trusted specialist",
+      srvRegularFeat2: "Nordic eco-supplies included",
+      srvDeepTitle: "Deep Sanity Clean",
+      srvDeepDesc: "Intensive descaling of wet areas, grout restoration, appliance degreasing, and micro-dust clearance.",
+      srvDeepFeat1: "Full scale & limescale removal",
+      srvDeepFeat2: "Oven & extractor hood treat",
+      srvMoveTitle: "Move-Out / In",
+      srvMoveDesc: "Guaranteed landlord & new owner handover checklist. Inside all cupboards, skirting, and fixtures.",
+      srvMoveFeat1: "Formal handover inspection checklist",
+      srvMoveFeat2: "Interior fixtures cleaned",
+      srvWinTitle: "Glazing & Fabrics",
+      srvWinDesc: "Balcony glass, tall glazing frames, steam extraction for wool sofas and natural fiber carpets.",
+      srvWinFeat1: "Reverse osmosis pure water",
+      srvWinFeat2: "Kärcher deep fiber extraction",
+      btnSelectPlan: "Select & Estimate",
+      complexEyebrow: "Commercial & High-End Special Care",
+      complexTitle: "Need a more complex job?",
+      complexSub: "Specialized crews with dedicated machinery for corporate flagships, private vessels, and sensitive finishes.",
+      compOfficeTitle: "Office & Studio Care",
+      compOfficeDesc: "Scheduled quiet-hour visits, sanitary restocking, keyboard/monitor safe sanitization, and meeting room reset.",
+      compYachtTitle: "Yachts & Marine Salons",
+      compYachtDesc: "Teak condition treatments, salt residue clearance, leather conditioning, and bilge freshness maintenance.",
+      compShowTitle: "Showrooms & Galleries",
+      compShowDesc: "Mirror-finish epoxy floor scrubbing, zero-lint glass showcase polish, and spot illumination dusting.",
+      ctaRequestB2B: "Request Corporate Quote",
+      ctaRequestMarine: "Request Marine Plan",
+      ctaRequestShowroom: "Request Showcase Plan",
+      plannerEyebrow: "Interactive Studio",
+      plannerTitle: "Configure your bespoke plan.",
+      plannerSub: "Itemized pricing transparently calculated based on square meters, room counts, and custom requirements in Tallinn.",
+      step1Label: "Space & Frequency",
+      step2Label: "Add-on Details",
+      step3Label: "Schedule & Access",
+      lblServiceType: "Service Scope",
+      optFrom45: "Maintenance upkeep",
+      optDeepSub: "Full-depth descaling",
+      optMoveSub: "Bond inspection ready",
+      lblArea: "Floor Area",
+      lblBathrooms: "Bathrooms",
+      lblBathSub: "Incl. shower & sauna",
+      lblRooms: "Bedrooms / Living",
+      lblRoomsSub: "Primary living areas",
+      lblFrequency: "Frequency Benefit",
+      freqWeekly: "Weekly",
+      freqBiweekly: "Bi-Weekly",
+      freqMonthly: "Monthly",
+      freqOnce: "Single Visit",
+      btnNextAddons: "Next: Add-on Details",
+      btnNextSchedule: "Next: Schedule & Access",
+      btnBack: "Back",
+      lblAddonsHeader: "Bespoke Treatments & Extras",
+      lblAddonsSub: "Select optional intensive modules to be executed alongside your core standard.",
+      addOvenTitle: "Oven Interior Steam Clean",
+      addOvenDesc: "Removal of baked carbon and fan degreasing.",
+      addFridgeTitle: "Fridge & Freezer Defrost Wipe",
+      addFridgeDesc: "Antibacterial wash of shelves, seals and crispers.",
+      addWinTitle: "Interior & Exterior Window Panes",
+      addWinDesc: "Up to 8 standard residential glass panels.",
+      addBalconyTitle: "Glazed Balcony & Terrace Deck",
+      addBalconyDesc: "Rail wash, floor scrub, and sliding track dust sweep.",
+      addSaunaTitle: "Sauna Cedar Wood Treatment",
+      addSaunaDesc: "Organic wood soap bench clean and glass door descale.",
+      addLinenTitle: "Hotel Bed Linen Turn-Down",
+      addLinenDesc: "Crisp bed remake with fresh customer-provided linens.",
+      lblAccessHeader: "Schedule & Arrival Protocol",
+      lblAccessSub: "Let us know how your specialist will access the premises.",
+      lblDate: "Preferred Starting Date",
+      lblTime: "Preferred Arrival Window",
+      lblAccessType: "Key Access Mode",
+      optHome: "I will be home",
+      optLockbox: "Key lockbox code",
+      optConcierge: "Front desk reception",
+      reassuranceNote: "No payment is taken now. We inspect your details personally and contact you within 2 hours to confirm staff availability and schedule your slot.",
+      btnReviewPlan: "Review & Finalize Plan",
+      summaryTitle: "Live Plan Summary",
+      lblEstTotal: "Estimated Visit Price",
+      taxIncluded: "VAT & Eco-supplies included",
+      btnContinueConfirm: "Continue to Confirmation",
+      noPaymentReassurance: "Free cancellation up to 36h before appointment.",
+      modalEyebrow: "Direct Booking Concierge",
+      modalTitle: "Confirm Your Cleaning Schedule",
+      modalSub: "Our team will verify specialist availability for your exact Tallinn address.",
+      modalFieldName: "Full Name",
+      modalFieldPhone: "Phone Number",
+      modalFieldDistrict: "Tallinn District",
+      modalFieldEmail: "Email Address",
+      modalGuarantee: "No upfront payment required. You will receive an SMS and email verification within 2 hours.",
+      modalBtnSubmit: "Submit Reservation Request",
+      successTitle: "Request Received",
+      successSub: "Thank you. Our Tallinn coordination team is reviewing your schedule and will contact you within 2 hours.",
+      b2bEyebrow: "Commercial & Special Clean",
+      b2bSub: "Bespoke equipment assignment, non-disclosure compliance, and dedicated team scheduling."
+    },
+    ET: {
+      heroBadge: "Põhjamaine kodu- ja äripindade hooldus",
+      heroTitle: "Puhtam kodu.",
+      heroTitleSub: "Rohkem aega elule.",
+      heroDescription: "Arhitektuurne puhtus ja personaalne koristusteenus nõudlikele kodudele, kaasaegsetele kontoritele ning mereäärsetele villadele Tallinnas.",
+      trust1Title: "Kontrollitud personal",
+      trust1Desc: "Alaline Tallinna meeskond, taustakontroll ja isikutuvastus.",
+      trust2Title: "Põhjamaade Ökomärgis",
+      trust2Desc: "Lõhnavabad ja hüpoallergeensed vahendid hinna sees.",
+      trust3Title: "Otsene koordineerimine",
+      trust3Desc: "Personaalse kliendihalduri ülevaatus ja kinnitus enne visiiti.",
+      ctaPlan: "Koostage oma plaan",
+      ctaInspection: "Vaadake tulemust",
+      hotspotHint: "Hõljuge punktidel, et näha tubade standardeid",
+      transformEyebrow: "Meisterlikkus ja muutus",
+      transformTitle: "Täpne detail. Nähtav puhtus.",
+      transformSub: "Libistage, et võrrelda ehitusjärgset tolmu ja meie valmis koristusstandardit.",
+      badgeBefore: "Enne üleandmist (Ehitusjärgne)",
+      badgeAfter: "PuhasPro standardi järel",
+      btnShowBefore: "Vaata: Enne",
+      btnShowSplit: "Poolitatud vaade (50%)",
+      btnShowAfter: "Vaata: Pärast",
+      catalogEyebrow: "Põhiline kodukoristus",
+      servicesTitle: "Mida soovite puhastada?",
+      servicesSub: "Valige esmane teenusepakett. Täpseid detaile saate seadistada allolevas kalkulaatoris.",
+      badgeRecurring: "Iganädalane / Üle nädala",
+      badgeDeep: "Põhjalik suurpuhastus",
+      badgeHandover: "100% Tagatisraha garantii",
+      badgeWindows: "Eritehnika",
+      srvRegularTitle: "Tavakoristus",
+      srvRegularDesc: "Järjepidev koduhooldus: tolmuimemine, pindade pühkimine, desinfitseeriv pesu ja sanitaarruumide läige.",
+      srvRegularFeat1: "Sama kindel spetsialist",
+      srvRegularFeat2: "Ökoloogilised vahendid hinna sees",
+      srvDeepTitle: "Süvakoristus",
+      srvDeepDesc: "Intensiivne katlakivi eemaldus, vuukide puhastus, köögitehnika rasvaärastus ja mikrotolmu likvideerimine.",
+      srvDeepFeat1: "Täielik lubja- ja katlakivieemaldus",
+      srvDeepFeat2: "Ahju ja õhupuhasti süvapuhastus",
+      srvMoveTitle: "Kolimiseelne koristus",
+      srvMoveDesc: "Garanteeritud üleandmisstandard üürileandjale või uuele omanikule. Kappide seest, liistudelt ja soppidest.",
+      srvMoveFeat1: "Ametlik üleandmisaktile vastavus",
+      srvMoveFeat2: "Kõik sisepinnad ja kapid puhtad",
+      srvWinTitle: "Aknad ja tekstiilid",
+      srvWinDesc: "Rõduklaasid, kõrged aknad, aurupuhastus villastele diivanitele ja naturaalsetele vaipadele.",
+      srvWinFeat1: "Puhastatud osmoosivesi ilma triipudeta",
+      srvWinFeat2: "Kärcher tekstiili süvapesu",
+      btnSelectPlan: "Vali ja arvuta",
+      complexEyebrow: "Äripinnad ja eriprojektid",
+      complexTitle: "Vajate keerukamat lahendust?",
+      complexSub: "Spetsiaalsed meeskonnad kontorite, jahtide ning esindussalongide hoolduseks.",
+      compOfficeTitle: "Bürood ja stuudiod",
+      compOfficeDesc: "Töövälisel ajal koristus, tarvikute täitmine, ekraanide ohutu puhastus ja nõupidamiste ruumide kord.",
+      compYachtTitle: "Jahid ja kaatrid",
+      compYachtDesc: "Tiikpuu hooldus, soolajälgede eemaldus, naha toitmine Pirita sadamas.",
+      compShowTitle: "Salongid ja galeriid",
+      compShowDesc: "Peegelläikivad epopõrandad, vitriinide poleerimine ja punktvalgustite puhastus.",
+      ctaRequestB2B: "Küsi äripinna pakkumist",
+      ctaRequestMarine: "Küsi jahiplaani",
+      ctaRequestShowroom: "Küsi salongihooldust",
+      plannerEyebrow: "Interaktiivne kalkulaator",
+      plannerTitle: "Koostage oma puhastusplaan.",
+      plannerSub: "Läbipaistev kalkulatsioon ruutmeetrite, tubade ja lisasoovide alusel Tallinnas ja Harjumaal.",
+      step1Label: "Pind ja sagedus",
+      step2Label: "Lisateenused",
+      step3Label: "Aeg ja ligipääs",
+      lblServiceType: "Koristuse tüüp",
+      optFrom45: "Regulaarne hooldus",
+      optDeepSub: "Põhjalik suurpuhastus",
+      optMoveSub: "Üleandmiseks valmis",
+      lblArea: "Põrandapind",
+      lblBathrooms: "Vannitoad",
+      lblBathSub: "K.a dušš ja saun",
+      lblRooms: "Magamistoad / Elutuba",
+      lblRoomsSub: "Eluruumide arv",
+      lblFrequency: "Tellimise sagedus",
+      freqWeekly: "Igal nädalal",
+      freqBiweekly: "Üle nädala",
+      freqMonthly: "Kord kuus",
+      freqOnce: "Ühekordne",
+      btnNextAddons: "Edasi: Lisateenused",
+      btnNextSchedule: "Edasi: Aeg ja ligipääs",
+      btnBack: "Tagasi",
+      lblAddonsHeader: "Eriteenused ja lisad",
+      lblAddonsSub: "Valige soovi korral lisamoodulid põhjalikuma tulemuse saavutamiseks.",
+      addOvenTitle: "Ahju sisepuhastus auruga",
+      addOvenDesc: "Kõrbenud rasva ja ventilaatori leotus ning pesu.",
+      addFridgeTitle: "Külmiku pesu ja desinfitseerimine",
+      addFridgeDesc: "Riiulite, tihendite ja kastide antibakteriaalne pesu.",
+      addWinTitle: "Akende pesu (kuni 8 akent)",
+      addWinDesc: "Klaaside ja raamide pesu seest ning väljast.",
+      addBalconyTitle: "Klaasitud rõdu ja terrass",
+      addBalconyDesc: "Klaasid, põranda süvapesu ja relsside tolmuimeja.",
+      addSaunaTitle: "Leiliruumi puiduhooldus",
+      addSaunaDesc: "Lava pesu puiduseebiga ja klaasukse katlakivieemaldus.",
+      addLinenTitle: "Voodipesu vahetus",
+      addLinenDesc: "Hotellistiilis värske voodipesu paigaldus.",
+      lblAccessHeader: "Aeg ja ligipääs objektile",
+      lblAccessSub: "Andke teada, kuidas spetsialist pääseb Teie ruumidesse.",
+      lblDate: "Eelistatud kuupäev",
+      lblTime: "Sobiv saabumise ajavahemik",
+      lblAccessType: "Võtmete üleandmine",
+      optHome: "Olen ise kohapeal",
+      optLockbox: "Võtmekapp / kood",
+      optConcierge: "Maja administraator",
+      reassuranceNote: "Praegu makset ei toimu. Vaatame Teie soovi üle ja võtame 2 tunni jooksul ühendust, et aeg lõplikult kinnitada.",
+      btnReviewPlan: "Vaata üle ja kinnita",
+      summaryTitle: "Puhastusplaani kokkuvõte",
+      lblEstTotal: "Hinnanguline külastushind",
+      taxIncluded: "Käibemaks ja ökovahendid hinna sees",
+      btnContinueConfirm: "Kinnita andmed",
+      noPaymentReassurance: "Tasuta tühistamine kuni 36h enne külastust.",
+      modalEyebrow: "Broneeringu kinnitamine",
+      modalTitle: "Kinnitage oma koristuse soov",
+      modalSub: "Kontrollime koheselt vabu aegu Teie Tallinna piirkonnas.",
+      modalFieldName: "Täisnimi",
+      modalFieldPhone: "Telefoninumber",
+      modalFieldDistrict: "Linnaosa",
+      modalFieldEmail: "E-posti aadress",
+      modalGuarantee: "Ettemaksu ei nõuta. Saadame kinnituse SMS-i ja e-kirjaga 2 tunni jooksul.",
+      modalBtnSubmit: "Saada broneeringu päring",
+      successTitle: "Päring vastu võetud",
+      successSub: "Täname! Meie Tallinna koordinaator vaatab graafiku üle ja võtab Teiega 2 tunni jooksul ühendust.",
+      b2bEyebrow: "Äri- ja eriprojektid",
+      b2bSub: "Eritehnika, konfidentsiaalsus ja personaalne meeskond."
+    },
+    RU: {
+      heroBadge: "Скандинавский уход за домами и офисами",
+      heroTitle: "Чистый дом.",
+      heroTitleSub: "Больше времени для жизни.",
+      heroDescription: "Архитектурная чистота и премиальный клининг для апартаментов, современных офисов и приморских резиденций в Таллинне.",
+      trust1Title: "Проверенный штат",
+      trust1Desc: "Постоянные сотрудники из Таллинна, проверка рекомендаций.",
+      trust2Title: "Nordic Ecolabel",
+      trust2Desc: "Гипоаллергенные средства без запаха уже включены в стоимость.",
+      trust3Title: "Прямой контроль",
+      trust3Desc: "Личный координатор и подтверждение графика перед визитом.",
+      ctaPlan: "Настроить план",
+      ctaInspection: "Оценить чистоту",
+      hotspotHint: "Наведите на маркеры для просмотра стандартов",
+      transformEyebrow: "Мастерство и трансформация",
+      transformTitle: "Внимание к деталям. Видимый результат.",
+      transformSub: "Подвиньте слайдер, чтобы сравнить состояние после ремонта и наш готовый стандарт.",
+      badgeBefore: "До сдачи (После ремонта)",
+      badgeAfter: "После уборки PuhasPro",
+      btnShowBefore: "Показать: До",
+      btnShowSplit: "Разделить (50%)",
+      btnShowAfter: "Показать: После",
+      catalogEyebrow: "Основные услуги для дома",
+      servicesTitle: "Что вы хотите убрать?",
+      servicesSub: "Выберите базовый регламент. Все параметры можно скорректировать в планировщике ниже.",
+      badgeRecurring: "Еженедельно / Раз в 2 недели",
+      badgeDeep: "Генеральная уборка",
+      badgeHandover: "100% Возврат залога",
+      badgeWindows: "Спецоборудование",
+      srvRegularTitle: "Поддерживающая",
+      srvRegularDesc: "Регулярный уход: пылесос, влажная уборка, обеспыливание поверхностей и глянец сантехники.",
+      srvRegularFeat1: "Постоянный доверенный специалист",
+      srvRegularFeat2: "Эко-средства включены в стоимость",
+      srvDeepTitle: "Генеральная уборка",
+      srvDeepDesc: "Удаление известкового налета, очистка межплиточных швов, обезжиривание кухни и удаление строительной пыли.",
+      srvDeepFeat1: "Полное удаление налета и камня",
+      srvDeepFeat2: "Чистка духовки и вытяжки",
+      srvMoveTitle: "При переезде",
+      srvMoveDesc: "Гарантированная сдача жилья владельцу. Чистка внутри всех шкафов, плинтусов и светильников.",
+      srvMoveFeat1: "Чек-лист для акта сдачи жилья",
+      srvMoveFeat2: "Мойка всех внутренних полок",
+      srvWinTitle: "Окна и текстиль",
+      srvWinDesc: "Остекление балконов, панорамные окна, экстракторная химчистка диванов и ковров.",
+      srvWinFeat1: "Осмотическая вода без разводов",
+      srvWinFeat2: "Глубокая экстракция Kärcher",
+      btnSelectPlan: "Выбрать и рассчитать",
+      complexEyebrow: "Коммерческие и спецобъекты",
+      complexTitle: "Нужна комплексная задача?",
+      complexSub: "Специальные бригады с профессиональной техникой для офисов, яхт и флагманских салонов.",
+      compOfficeTitle: "Офисы и студии",
+      compOfficeDesc: "Уборка во внерабочее время, пополнение расходников, бережная дезинфекция рабочих мест.",
+      compYachtTitle: "Яхты и катера",
+      compYachtDesc: "Уход за тиковым деревом, удаление солевого налета, кондиционирование кожи в Pirita marina.",
+      compShowTitle: "Шоурумы и бутики",
+      compShowDesc: "Зеркальный блеск наливных полов, полировка витрин без ворсинок, очистка световых треков.",
+      ctaRequestB2B: "Запрос для бизнеса",
+      ctaRequestMarine: "План для яхты",
+      ctaRequestShowroom: "План для салона",
+      plannerEyebrow: "Интерактивный конфигуратор",
+      plannerTitle: "Настройте ваш план уборки.",
+      plannerSub: "Прозрачный расчет на основе площади, числа комнат и пожеланий в Таллинне и пригороде.",
+      step1Label: "Площадь и график",
+      step2Label: "Дополнительно",
+      step3Label: "Время и доступ",
+      lblServiceType: "Тип уборки",
+      optFrom45: "Регулярный уход",
+      optDeepSub: "Глубокая очистка",
+      optMoveSub: "Готовность к сдаче",
+      lblArea: "Площадь жилья",
+      lblBathrooms: "Санузлы",
+      lblBathSub: "Вкл. душ и сауну",
+      lblRooms: "Спальни / Гостиная",
+      lblRoomsSub: "Количество жилых комнат",
+      lblFrequency: "Периодичность",
+      freqWeekly: "Еженедельно",
+      freqBiweekly: "Раз в 2 недели",
+      freqMonthly: "Раз в месяц",
+      freqOnce: "Один раз",
+      btnNextAddons: "Далее: Доп. услуги",
+      btnNextSchedule: "Далее: Время и доступ",
+      btnBack: "Назад",
+      lblAddonsHeader: "Специальные модули",
+      lblAddonsSub: "Выберите опции, которые необходимо выполнить вместе с основной уборкой.",
+      addOvenTitle: "Паровая чистка духовки",
+      addOvenDesc: "Удаление нагара со стенок, противней и вентилятора.",
+      addFridgeTitle: "Мойка холодильника",
+      addFridgeDesc: "Антибактериальная обработка полок и уплотнителей.",
+      addWinTitle: "Мытье окон (до 8 створок)",
+      addWinDesc: "Очистка стекол и рам изнутри и снаружи.",
+      addBalconyTitle: "Остекленный балкон и терраса",
+      addBalconyDesc: "Мытье направляющих, рам и пола.",
+      addSaunaTitle: "Уход за сауной и полками",
+      addSaunaDesc: "Мытье полков эко-мылом, снятие налета со стекла.",
+      addLinenTitle: "Смена постельного белья",
+      addLinenDesc: "Красивая заправка белья по гостиничному стандарту.",
+      lblAccessHeader: "Дата и способ передачи ключей",
+      lblAccessSub: "Укажите, как специалист сможет попасть в помещение.",
+      lblDate: "Желаемая дата",
+      lblTime: "Удобный интервал времени",
+      lblAccessType: "Способ доступа",
+      optHome: "Я буду дома",
+      optLockbox: "Кейбокс / Кодовый замок",
+      optConcierge: "Консьерж / Ресепшн",
+      reassuranceNote: "Оплата сейчас не списывается. Мы согласуем время и подтвердим бронь в течение 2 часов.",
+      btnReviewPlan: "Проверить и подтвердить",
+      summaryTitle: "Итог конфигурации",
+      lblEstTotal: "Расчетная стоимость",
+      taxIncluded: "НСО и эко-средства включены",
+      btnContinueConfirm: "Перейти к оформлению",
+      noPaymentReassurance: "Бесплатная отмена за 36 часов до начала.",
+      modalEyebrow: "Подтверждение бронирования",
+      modalTitle: "Согласуйте график уборки",
+      modalSub: "Координатор проверит наличие специалистов в вашем районе Таллинна.",
+      modalFieldName: "Ваше имя",
+      modalFieldPhone: "Номер телефона",
+      modalFieldDistrict: "Район Таллинна",
+      modalFieldEmail: "Электронная почта",
+      modalGuarantee: "Предоплата не требуется. Мы вышлем SMS и письмо в течение 2 часов.",
+      modalBtnSubmit: "Отправить запрос",
+      successTitle: "Запрос принят",
+      successSub: "Спасибо! Координатор PuhasPro свяжется с вами в течение 2 часов для подтверждения.",
+      b2bEyebrow: "Корпоративные клиенты",
+      b2bSub: "Профессиональная техника, NDA и персональная команда."
+    }
+  };
+
+  let currentLang = 'EN';
+
+  function applyLanguage(lang) {
+    currentLang = lang;
+    const dict = translations[lang] || translations.EN;
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (dict[key]) {
+        el.innerHTML = dict[key];
+      }
+    });
+
+    // Update Language Pill States in Header if present
+    document.querySelectorAll('.app-lang-pill, nav span, header span').forEach(el => {
+      if (['EN', 'ET', 'RU'].includes(el.innerText.trim())) {
+        if (el.innerText.trim() === lang) {
+          el.className = 'px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface shadow-[0_1px_4px_rgba(0,0,0,0.04)] cursor-pointer font-semibold';
+        } else {
+          el.className = 'px-2.5 py-1 text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors';
+        }
+      }
+    });
+
+    updateCalculations();
+  }
+
+  // Bind Language Switcher Buttons in Shell
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('header span, footer span').forEach(span => {
+      const txt = span.innerText.trim();
+      if (['EN', 'ET', 'RU'].includes(txt)) {
+        span.addEventListener('click', (e) => {
+          e.preventDefault();
+          applyLanguage(txt);
+        });
+      }
+    });
+  });
+
+  // 2. Interactive Before & After Slider Logic
+  const slider = document.getElementById('comparison-slider');
+  const clipContainer = document.getElementById('before-clip-container');
+  const handle = document.getElementById('slider-handle');
+
+  function setSliderPosition(percentage) {
+    const clamped = Math.max(0, Math.min(100, percentage));
+    clipContainer.style.width = clamped + '%';
+    handle.style.left = clamped + '%';
+  }
+
+  if (slider) {
+    let isDragging = false;
+
+    const onMove = (e) => {
+      if (!isDragging) return;
+      const rect = slider.getBoundingClientRect();
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      const pos = ((clientX - rect.left) / rect.width) * 100;
+      setSliderPosition(pos);
+    };
+
+    slider.addEventListener('mousedown', () => { isDragging = true; });
+    slider.addEventListener('touchstart', () => { isDragging = true; }, { passive: true });
+    window.addEventListener('mouseup', () => { isDragging = false; });
+    window.addEventListener('touchend', () => { isDragging = false; });
+    window.addEventListener('mousemove', onMove);
+    window.addEventListener('touchmove', onMove, { passive: true });
+
+    document.getElementById('toggle-before')?.addEventListener('click', () => setSliderPosition(100));
+    document.getElementById('toggle-split')?.addEventListener('click', () => setSliderPosition(50));
+    document.getElementById('toggle-after')?.addEventListener('click', () => setSliderPosition(0));
+  }
+
+  // 3. Planner Reactive Calculation & Stepper
+  let plannerState = {
+    step: 1,
+    serviceType: 'regular',
+    area: 65,
+    baths: 1,
+    rooms: 2,
+    frequency: 'biweekly',
+    addons: {
+      oven: false,
+      fridge: false,
+      windows: false,
+      balcony: false,
+      sauna: false,
+      linen: false
+    }
+  };
+
+  const rates = {
+    regular: { basePerM2: 0.65, roomAdd: 8, bathAdd: 14, min: 45 },
+    deep: { basePerM2: 1.15, roomAdd: 16, bathAdd: 25, min: 95 },
+    move: { basePerM2: 1.35, roomAdd: 20, bathAdd: 30, min: 130 },
+    windows: { basePerM2: 0.70, roomAdd: 10, bathAdd: 10, min: 60 }
+  };
+
+  const addonPrices = {
+    oven: 28,
+    fridge: 24,
+    windows: 42,
+    balcony: 34,
+    sauna: 29,
+    linen: 18
+  };
+
+  const freqMultipliers = {
+    weekly: 0.80,
+    biweekly: 0.85,
+    monthly: 0.90,
+    once: 1.00
+  };
+
+  function setServiceType(type) {
+    plannerState.serviceType = type;
+    ['regular', 'deep', 'move'].forEach(t => {
+      const btn = document.getElementById(`btn-type-${t}`);
+      if (!btn) return;
+      if (t === type) {
+        btn.classList.add('bg-secondary-container', 'shadow-sm');
+        btn.classList.remove('bg-surface-container-low');
+      } else {
+        btn.classList.remove('bg-secondary-container', 'shadow-sm');
+        btn.classList.add('bg-surface-container-low');
+      }
+    });
+    updateCalculations();
+  }
+
+  function selectServiceInPlanner(type) {
+    const el = document.getElementById('planner-calc');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    setServiceType(type);
+  }
+
+  function adjustCount(type, delta) {
+    if (type === 'bath') {
+      plannerState.baths = Math.max(1, Math.min(6, plannerState.baths + delta));
+      document.getElementById('val-bath').innerText = plannerState.baths;
+    } else if (type === 'rooms') {
+      plannerState.rooms = Math.max(1, Math.min(8, plannerState.rooms + delta));
+      document.getElementById('val-rooms').innerText = plannerState.rooms;
+    }
+    updateCalculations();
+  }
+
+  function setFrequency(freq) {
+    plannerState.frequency = freq;
+    ['weekly', 'biweekly', 'monthly', 'once'].forEach(f => {
+      const btn = document.getElementById(`btn-freq-${f}`);
+      if (!btn) return;
+      if (f === freq) {
+        btn.classList.add('bg-secondary-container', 'text-on-secondary-container');
+        btn.classList.remove('bg-surface-container-low');
+      } else {
+        btn.classList.remove('bg-secondary-container', 'text-on-secondary-container');
+        btn.classList.add('bg-surface-container-low');
+      }
+    });
+    updateCalculations();
+  }
+
+  function updateCalculations() {
+    const areaInput = document.getElementById('input-area');
+    if (areaInput) {
+      plannerState.area = parseInt(areaInput.value, 10);
+      document.getElementById('val-area').innerText = plannerState.area;
+    }
+
+    plannerState.addons.oven = document.getElementById('addon-oven')?.checked || false;
+    plannerState.addons.fridge = document.getElementById('addon-fridge')?.checked || false;
+    plannerState.addons.windows = document.getElementById('addon-windows')?.checked || false;
+    plannerState.addons.balcony = document.getElementById('addon-balcony')?.checked || false;
+    plannerState.addons.sauna = document.getElementById('addon-sauna')?.checked || false;
+    plannerState.addons.linen = document.getElementById('addon-linen')?.checked || false;
+
+    const rate = rates[plannerState.serviceType] || rates.regular;
+    let base = (plannerState.area * rate.basePerM2) + (plannerState.rooms * rate.roomAdd) + (plannerState.baths * rate.bathAdd);
+    base = Math.max(rate.min, base);
+
+    // Apply frequency discount
+    const mult = freqMultipliers[plannerState.frequency] || 1.0;
+    const discountedBase = Math.round(base * mult);
+
+    // Add extras
+    let addonSum = 0;
+    const addonNames = [];
+    for (const [key, active] of Object.entries(plannerState.addons)) {
+      if (active) {
+        addonSum += addonPrices[key];
+        addonNames.push(key);
+      }
+    }
+
+    const finalTotal = discountedBase + addonSum;
+
+    // Render Sticky Summary
+    const dict = translations[currentLang] || translations.EN;
+    const typeTitles = {
+      regular: dict.srvRegularTitle || "Regular Care",
+      deep: dict.srvDeepTitle || "Deep Sanity Clean",
+      move: dict.srvMoveTitle || "Move-Out / In"
+    };
+
+    document.getElementById('sum-type-title').innerText = typeTitles[plannerState.serviceType];
+    document.getElementById('sum-base-price').innerText = `€${discountedBase}`;
+    document.getElementById('sum-area-val').innerText = `${plannerState.area} m² (${plannerState.rooms} r, ${plannerState.baths} b)`;
+    
+    const freqLabels = {
+      weekly: "Weekly (-20%)",
+      biweekly: "Bi-Weekly (-15%)",
+      monthly: "Monthly (-10%)",
+      once: "Single Visit"
+    };
+    document.getElementById('sum-freq-val').innerText = freqLabels[plannerState.frequency];
+
+    // Render Addons list
+    const addonsContainer = document.getElementById('sum-addons-container');
+    if (addonsContainer) {
+      if (addonNames.length === 0) {
+        addonsContainer.innerHTML = '';
+      } else {
+        addonsContainer.innerHTML = addonNames.map(k => `
+          <div class="flex justify-between text-xs text-primary font-medium">
+            <span>+ ${k.charAt(0).toUpperCase() + k.slice(1)} Extra</span>
+            <span>€${addonPrices[k]}</span>
+          </div>
+        `).join('');
+      }
+    }
+
+    document.getElementById('sum-total-price').innerText = `€${finalTotal}`;
+
+    // Modal sync
+    const modalTitle = document.getElementById('modal-service-name');
+    const modalPrice = document.getElementById('modal-service-price');
+    const modalSpecs = document.getElementById('modal-specs');
+    if (modalTitle) modalTitle.innerText = `${typeTitles[plannerState.serviceType]}`;
+    if (modalPrice) modalPrice.innerText = `€${finalTotal} / visit`;
+    if (modalSpecs) modalSpecs.innerText = `${plannerState.area} m² · ${plannerState.rooms} rooms · ${plannerState.baths} baths · ${freqLabels[plannerState.frequency]}`;
+  }
+
+  function goToStep(stepNumber) {
+    plannerState.step = stepNumber;
+    [1, 2, 3].forEach(s => {
+      const stepEl = document.getElementById(`planner-step-${s}`);
+      const pillEl = document.getElementById(`step-pill-${s}`);
+      if (stepEl && pillEl) {
+        if (s === stepNumber) {
+          stepEl.classList.remove('hidden');
+          pillEl.className = 'w-8 h-8 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center font-bold';
+        } else {
+          stepEl.classList.add('hidden');
+          pillEl.className = 'w-8 h-8 rounded-full bg-surface-container-highest text-on-surface-variant font-label-md text-label-md flex items-center justify-center font-bold';
+        }
+      }
+    });
+  }
+
+  // 4. Modals
+  function openConfirmationModal() {
+    updateCalculations();
+    const modal = document.getElementById('confirm-modal');
+    if (modal) modal.classList.remove('hidden'), modal.classList.add('flex');
+  }
+
+  function closeConfirmationModal() {
+    const modal = document.getElementById('confirm-modal');
+    if (modal) modal.classList.add('hidden'), modal.classList.remove('flex');
+    const form = document.getElementById('booking-form');
+    const success = document.getElementById('booking-success');
+    if (form) form.classList.remove('hidden');
+    if (success) success.classList.add('hidden');
+  }
+
+  function handleBookingSubmit(e) {
+    e.preventDefault();
+    document.getElementById('booking-form').classList.add('hidden');
+    document.getElementById('booking-success').classList.remove('hidden');
+  }
+
+  function openCustomQuoteModal(title) {
+    const modal = document.getElementById('b2b-modal');
+    const titleEl = document.getElementById('b2b-modal-title');
+    if (titleEl) titleEl.innerText = title;
+    if (modal) modal.classList.remove('hidden'), modal.classList.add('flex');
+  }
+
+  function closeB2bModal() {
+    const modal = document.getElementById('b2b-modal');
+    if (modal) modal.classList.add('hidden'), modal.classList.remove('flex');
+  }
+
+  function handleB2bSubmit(e) {
+    e.preventDefault();
+    closeB2bModal();
+    alert('Thank you. Our B2B coordinator will contact your company today.');
+  }
+
+  // Initialize
+  setSliderPosition(50);
+  updateCalculations();
+</script></main><footer class="w-full bg-surface-container-lowest shadow-[0_-8px_24px_-6px_rgba(15,23,42,0.02)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-16"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 mb-16"><div class="lg:col-span-4 space-y-4"><div class="flex items-center gap-2"><span class="font-headline-md text-headline-md text-on-surface font-semibold">PuhasPro</span><span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-caps text-label-caps">Tallinn</span></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed max-w-sm">Elevating Nordic residential sanctuaries and prime corporate spaces through meticulous, design-aware cleanliness across greater Tallinn.</p><div class="flex items-center gap-3 pt-2"><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Language:</span><div class="flex items-center gap-1 font-label-caps text-label-caps"><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-semibold">EN</span><span class="px-2 py-0.5 text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">ET</span><span class="px-2 py-0.5 text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">RU</span></div></div></div><div class="lg:col-span-3 space-y-3"><h4 class="font-headline-sm text-headline-sm text-on-surface font-medium">Service Areas</h4><ul class="font-body-sm text-body-sm text-on-surface-variant space-y-2"><li>Kesklinn &amp; Vanalinn</li><li>Kadriorg &amp; Merivälja</li><li>Kalamaja &amp; Noblessner</li><li>Pirita &amp; Viimsi vald</li><li>Kristiine &amp; Pelgulinn</li><li>Nõmme &amp; Kakumäe</li></ul></div><div class="lg:col-span-3 space-y-3"><h4 class="font-headline-sm text-headline-sm text-on-surface font-medium">Client Concierge</h4><ul class="font-body-sm text-body-sm text-on-surface-variant space-y-2.5"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-primary">mail</span>tere@puhaspro.ee</li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-primary">location_on</span>Rotermanni Kvartal, Tallinn, Estonia</li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-primary">schedule</span>Mon – Sat: 08:00 – 20:00</li></ul></div><div class="lg:col-span-2 space-y-3"><h4 class="font-headline-sm text-headline-sm text-on-surface font-medium">Service Standards</h4><div class="p-4 rounded-xl bg-surface-container-low space-y-2"><p class="font-label-caps text-label-caps uppercase text-primary font-semibold tracking-wider">Policy Notice</p><p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Complimentary rescheduling up to 36 hours prior to scheduled arrival.</p></div></div></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 PuhasPro OÜ. Reg. code 16428901. All rights reserved.</p><div class="flex items-center gap-6"><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" href="#">Fair Care Guarantee</a></div></div></div></footer><script src="localization.js?v=3"></script></body></html>
