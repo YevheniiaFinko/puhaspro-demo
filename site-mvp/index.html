@@ -1387,6 +1387,26 @@
     alert('Thank you. Our B2B coordinator will contact your company today.');
   }
 
+  // Keep the language switcher visible and tappable on small screens.
+  // Inline styles intentionally win over Tailwind's responsive utilities.
+  const syncMobileHeader = () => {
+    const mobile = window.matchMedia('(max-width: 639px)').matches;
+    const header = document.querySelector('header');
+    const languages = header?.querySelector('div.hidden.md\\:flex, div[data-language-switcher]');
+    const plannerLink = [...(header?.querySelectorAll('a') || [])].find(link => link.getAttribute('href') === '#planner-calc');
+    const account = plannerLink?.nextElementSibling;
+    if (languages) {
+      languages.dataset.languageSwitcher = 'true';
+      languages.style.display = 'flex';
+      languages.style.flexShrink = '0';
+      languages.style.fontSize = mobile ? '11px' : '';
+    }
+    if (plannerLink) plannerLink.style.display = mobile ? 'none' : '';
+    if (account) account.style.display = mobile ? 'none' : '';
+  };
+  syncMobileHeader();
+  window.addEventListener('resize', syncMobileHeader);
+
   // Initialize
   setSliderPosition(50);
   updateCalculations();
